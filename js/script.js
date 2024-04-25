@@ -10,15 +10,15 @@ function playSound(soundUrl) {
   
   // 綁定按鈕點擊事件
   document.getElementById('playButton1').addEventListener('click', function() {
-    playSound('audio/sound/T_001.mp3');
+    playSound('https://github.com/icephy/travel_class/raw/main/audio/sound/T_001.mp3');
   });
   
   document.getElementById('playButton2').addEventListener('click', function() {
-    playSound('audio/sound/T_002.mp3');
+    playSound('https://github.com/icephy/travel_class/raw/main/audio/sound/T_002.mp3');
   });
   
   document.getElementById('playButton3').addEventListener('click', function() {
-    playSound('audio/sound/T_003.mp3');
+    playSound('https://github.com/icephy/travel_class/raw/main/audio/sound/T_003.mp3');
   });
   
   document.getElementById('playButton4').addEventListener('click', function() {
