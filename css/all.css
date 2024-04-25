@@ -1,0 +1,19 @@
+.hotel{
+    /* background-image: url("../img/bg_002.svg");
+    background-size: cover;
+    background-position: center; */
+    background-image: linear-gradient(rgb(233, 233, 233) .1rem, transparent .1rem), linear-gradient(90deg, rgba(233, 233, 233) .1rem, transparent .1rem);
+    background-size: 3rem 3rem;
+}
+
+.bg-theme-light{
+    background-color: #EAEDE7;
+}
+
+.bg-theme-dark{
+    background-color: #415948;
+}
+
+.fs-7{
+    font-size: 14px;
+}
