@@ -10,7 +10,7 @@ function playSound(soundUrl) {
   
   // 綁定按鈕點擊事件
   document.getElementById('playButton1').addEventListener('click', function() {
-    playSound('https://drive.usercontent.google.com/download?id=1e2Fub2IELSqY7TDLzn3eDXNFIduW1Kiy&export=download&authuser=5&confirm=t&uuid=f2f79cc1-a5b8-4f49-82af-dba9bd38d731&at=APZUnTXR8SjqwERKrs3nw7nY4zRV:1714028512891');
+    playSound('https://drive.google.com/uc?id=1e2Fub2IELSqY7TDLzn3eDXNFIduW1Kiy');
   });
   
   document.getElementById('playButton2').addEventListener('click', function() {
