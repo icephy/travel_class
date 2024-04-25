@@ -13,13 +13,13 @@ function playSound(soundUrl) {
     playSound('https://icephy.github.io/travel_class/audio/sound/T_001.mp3');
   });
   
-  // document.getElementById('playButton2').addEventListener('click', function() {
-  //   playSound('https://icephy.github.io/travel_class/audio/sound/T_002.mp3');
-  // });
+  document.getElementById('playButton2').addEventListener('click', function() {
+    playSound('https://icephy.github.io/travel_class/audio/sound/T_002.mp3');
+  });
   
-  // document.getElementById('playButton3').addEventListener('click', function() {
-  //   playSound('https://icephy.github.io/travel_class/audio/sound/T_003.mp3');
-  // });
+  document.getElementById('playButton3').addEventListener('click', function() {
+    playSound('https://icephy.github.io/travel_class/audio/sound/T_003.mp3');
+  });
   
   // document.getElementById('playButton4').addEventListener('click', function() {
   //   playSound('https://example.com/path/to/your/sound/sound4.mp3');
