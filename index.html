@@ -46,8 +46,8 @@
             <p class="text-center">快來確認自己負責的任務內容，可提前閱讀來預習！</p>
         </div>
         <div class="container my-2">
-            <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col-md-6 col-lg-3">
+            <div class="row row-cols-1 row-cols-md-4 g-3">
+                <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="card shadow-sm">
                         <p class="position-absolute top-0 px-4 py-2 bg-dark fs-6 fw-bold text-white">飯店櫃檯人員</p>
                         <img src="img/hotel_role_001.png" class="card-img-top img-fluid bg-theme-light" alt="...">
@@ -69,19 +69,27 @@
                         </div><!--card-body-->
                     </div><!--card-->
                 </div><!--櫃檯人員-->
-                <div class="col-md-6 col-lg-3">
+                <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="card shadow-sm">
                         <p class="position-absolute top-0 px-4 py-2 bg-dark fs-6 fw-bold text-white">旅客犬犬</p>
                         <img src="img/hotel_role_002.png" class="card-img-top img-fluid bg-theme-light" alt="旅客">
                       <div class="card-body">
                         <h5 class="card-title">辦理入住手續</h5>
-                        <p class="card-text">在心裡默默反覆複習可能需要用到的幾句日文後，旅客試圖讓自己在與櫃檯人員交流時更加自信...                  
+                        <p class="card-text">默默反覆複習可能需要用到的日文後，旅客試圖讓自己在與櫃檯人員交流時更加自信...                  
                         </p>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">查看任務內容
-                        </button>
-                          <!-- Modal -->
-                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <ul class="list-unstyled d-flex flex-md-column flex-lg-row mb-0 gap-2">
+                            <li class="w-100 w-md-100 w-lg-50">
+                                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal-1">查看任務
+                                </button>
+                            </li>
+                            <li class="w-100 w-md-50 w-lg-50">
+                                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal-2">對話練習
+                                </button>
+                            </li>
+                        </ul>                 
+                          <!-- Modal-1 -->
+                          <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                               <div class="modal-dialog modal-lg">
                               <div class="modal-content">
                                   <div class="modal-header">
@@ -95,29 +103,43 @@
                                         <li><img src="img/icon-microphone.svg" alt="microphone" class="img-fluid d-block me-2">
                                         </li>
                                         <li>發言順序：第２位</li>
-                                    </ul>
+                                    </ul><!--發言順序-->
                                   </div><!--任務說明-->
-                                  <ul class="list-unstyled">
-                                    <li class="d-flex flex-column flex-md-row align-items-md-center">
-                                        <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-2 mb-md-3">情境</p>
-                                        <p class="px-2 fs-6">預計入住３天，２間房間（一間單人房、一間三人房）。</p>
-                                    </li>
-                                    <li class="d-flex flex-column flex-md-row align-items-md-center">
-                                        <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-2 mb-md-3">你的任務</p>
-                                        <p class="px-2 fs-6">與飯店櫃檯人員對話，負責幫大家辦理入住手續。</p>
-                                    </li>
-                                    <li class="d-flex flex-column flex-md-row align-items-md-center mb-3 mb-md-2">
-                                        <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-2 mb-md-3">特別任務</p>
-                                        <ul class="list-unstyled px-2 fs-6">
-                                            <li>➀、詢問房間是否有 Wifi ，並向櫃檯人員要 Wifi 密碼。</li>
-                                            <li>➁、回答 Tina，自己為什麼學日文。</li>
-                                        </ul>
-                                    </li>
-                                    <li class="d-flex flex-column flex-md-row align-items-md-center">
-                                        <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-2 mb-md-3">求救機會</p>
-                                        <p class="px-2 fs-6">卡關時，舉手說「<span class="fw-bold text-danger text-decoration-underline">手伝ってください</span>」來獲得抽取求救卡的機會，僅限使用一次。</p>
-                                    </li>
-                                  </ul>
+                                    <!--手風琴-->                                   
+                                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                                        <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                            <button class="accordion-button fs-5 fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                            你的任務
+                                            </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                            <div class="accordion-body">
+                                                <ul class="list-unstyled d-flex flex-column mb-0">
+                                                    <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
+                                                        <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">情境</p>
+                                                        <p class="px-2 fs-6 mb-0">預計入住３天，２間房間（一間單人房、一間三人房）。</p>
+                                                    </li>
+                                                    <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
+                                                        <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">你的任務</p>
+                                                        <p class="px-2 fs-6 mb-0">與飯店櫃檯人員對話，負責幫大家辦理入住手續。</p>
+                                                    </li>
+                                                    <li class="d-flex flex-column flex-md-row align-items-md-start mb-2 mb-md-2 gap-1">
+                                                        <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">特別任務</p>
+                                                        <ul class="list-unstyled px-2 fs-6">
+                                                            <li>➀、詢問房間是否有 Wifi ，並向櫃檯人員要 Wifi 密碼。</li>
+                                                            <li>➁、回答 Tina，自己為什麼學日文。</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="d-flex flex-column flex-md-row align-items-md-center gap-1">
+                                                        <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">求救機會</p>
+                                                        <p class="px-2 fs-6 mb-0">卡關時，舉手說「<span class="fw-bold text-danger text-decoration-underline">手伝ってください</span>」來獲得抽取求救卡的機會，僅限使用一次。</p>
+                                                    </li>
+                                              </ul><!--任務清單說明-->
+                                            </div><!--accordion-body-->
+                                        </div><!--accordion-collapse-->
+                                        </div><!--accordion-->
+                                    </div><!--手風琴-->
                                   <hr>
                                   <div class="d-flex align-items-center justify-content-between mb-3">
                                     <p class="fs-5 fw-bold mb-0">➋ 補充單字</p>
@@ -342,11 +364,140 @@
                                   </div><!--modal-footer-->
                               </div>
                               </div>
-                          </div><!--end-->
+                          </div><!--Modal-1-end-->
+                          <!-- Modal-2 -->
+                          <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                      <h5 class="modal-title me-2" id="exampleModalLabel">挑戰任務</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div><!--modal-header-->
+                                <div class="modal-body">                               
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                  <p class="fs-5 fw-bold mb-0">➊ 對話練習說明</p>
+                                </div><!--對話練習說明-->
+                                <!--手風琴--> 
+                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                    <div class="accordion-item">
+                                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                          Accordion Item #1
+                                        </button>
+                                      </h2>
+                                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                        <div class="accordion-body">
+                                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes。
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div><!--手風琴-->
+                                <hr>
+                                <div class="d-flex align-items-center justify-content-between mb-3">
+                                  <p class="fs-5 fw-bold mb-0">➌ 文法句型</p>
+                                  <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-theme-dark rounded fs-6 fw-bolder text-light">
+                                      <li><img src="img/icon-notify.svg" alt="notify" class="img-fluid d-block me-2">
+                                      </li>
+                                      <li>練習不同句型</li>
+                                  </ul><!--補充單字標題表頭-->                                
+                              </div><!--文法句型-->
+                                <div class="table-responsive">
+                                  <table class="table table-hover table-bordered align-middle">
+                                      <thead>
+                                      <tr>
+                                          <th scope="col" width="15%">#</th>
+                                          <th scope="col" width="70%">句型結構</th>
+                                          <th scope="col" width="15%">中譯</th>
+                                      </tr>
+                                      </thead>
+                                      <tbody>
+                                      <tr>
+                                          <th scope="row">お客様</th>
+                                          <td>
+                                              <ul class="align-items-center list-unstyled mb-0">
+                                                  <li class="">
+                                                    <p class="text-primary mb-0">すみません、予約（よやく）があります。〇〇です。
+                                                    </p>
+                                                    <p class="text-muted fs-7 mb-0">不好意思，我有預約。我是ＯＯ。
+                                                    </p>
+                                                  </li>
+                                              </ul>
+                                          </td>
+                                          <td>
+                                              <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
+                                                  <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                              </button>
+                                          </td>
+                                      </tr><!--旅客-->
+                                      <tr>
+                                        <th scope="row">フロント</th>
+                                        <td>
+                                            <ul class="align-items-center list-unstyled mb-0">
+                                                <li class="">
+                                                  <p class="mb-0">〇〇ですね。一泊（いっぱく）ですか？
+                                                  </p>
+                                                  <p class="text-muted fs-7 mb-0">ＯＯ先生，請問是入住３晚嗎？
+                                                  </p>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
+                                                <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                            </button>
+                                        </td>
+                                      </tr><!--櫃檯-->
+                                      <tr>
+                                        <th scope="row">お客様</th>
+                                        <td>
+                                            <ul class="align-items-center list-unstyled mb-0">
+                                                <li class="">
+                                                  <p class="text-primary mb-0">はい。
+                                                  </p>
+                                                  <p class="text-muted fs-7 mb-0">是的。
+                                                  </p>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
+                                                <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                            </button>
+                                        </td>
+                                      </tr><!--旅客-->
+                                      <tr>
+                                        <th scope="row">フロント</th>
+                                        <td>
+                                            <ul class="align-items-center list-unstyled mb-0">
+                                                <li class="">
+                                                  <p class="mb-0">〇〇ですね。一泊（いっぱく）ですか？
+                                                  </p>
+                                                  <p class="text-muted fs-7 mb-0">ＯＯ先生，請問是入住３晚嗎？
+                                                  </p>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
+                                                <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                            </button>
+                                        </td>
+                                      </tr><!--櫃檯-->
+                                      </tbody>
+                                  </table>
+                                </div><!--table-responsive-->
+                                </div><!--modal-body-->
+
+                                <div class="modal-footer mt-auto">
+                                    <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">我知道了！</button>
+                                </div><!--modal-footer-->
+                            </div>
+                            </div>
+                        </div><!--Modal-2-end-->
                       </div><!--card-body-->
                     </div><!--card-->
                 </div><!--旅客-->
-                <div class="col-md-6 col-lg-3">
+                <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="card shadow-sm">
                         <p class="position-absolute top-0 px-4 py-2 bg-dark fs-6 fw-bold text-white">旅客</p>
                         <img src="img/hotel_role_003.png" class="card-img-top img-fluid bg-theme-light" alt="...">
@@ -517,7 +668,7 @@
                       </div><!--card-body-->
                     </div><!--card-->
                 </div><!--旅客-->
-                <div class="col-md-6 col-lg-3">
+                <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="card shadow-sm">
                         <p class="position-absolute top-0 px-4 py-2 bg-dark fs-6 fw-bold text-white">旅客</p>
                         <img src="img/hotel_role_004.png" class="card-img-top img-fluid bg-theme-light" alt="...">
