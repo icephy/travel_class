@@ -51,6 +51,730 @@
       <div class="row row-cols-1 row-cols-md-4 g-3">
         <div class="col-sm-6 col-md-6 col-lg-3">
           <div class="card shadow-sm">
+            <p class="position-absolute top-0 px-4 py-2 bg-dark fs-6 fw-bold text-white">旅客柴柴</p>
+            <img src="img/hotel_role_003.png" class="card-img-top img-fluid bg-theme-light" alt="旅客">
+            <div class="card-body">
+              <h5 class="card-title">又要不能改了嗎</h5>
+              <p class="card-text">默默反覆複習可能需要用到的日文後，旅客試圖讓自己在與櫃檯人員交流時更加自信...
+              </p>
+              <!-- Button trigger modal -->
+              <ul class="list-unstyled d-flex flex-md-column flex-lg-row mb-0 gap-2">
+                <li class="w-100 w-md-100 w-lg-50">
+                  <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#tabModal-1">任務卡
+                  </button>
+                </li>
+                <li class="w-100 w-md-50 w-lg-50">
+                  <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#tabModal-2">對話練習
+                  </button>
+                </li>
+              </ul>
+              <!-- tabModal-1 -->
+              <div class="modal fade" id="tabModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header align-items-center">
+                      <h5 class="modal-title me-0 fw-bolder" id="exampleModalLabel"></h5>
+                      <!--tab 導覽區塊-->
+                      <ul class="nav nav-pills mb-0 flex-nowrap overflow-auto" id="pills-tab" role="tablist">
+                        <li class="nav-item text-nowrap" role="presentation">
+                          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">任務詳情</button>
+                        </li>
+                        <li class="nav-item text-nowrap" role="presentation">
+                          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">認識單字</button>
+                        </li>
+                        <li class="nav-item text-nowrap" role="presentation">
+                          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">文法句型</button>
+                        </li>
+                        <li class="nav-item text-nowrap" role="presentation">
+                          <button class="nav-link" id="pills-conversation-tab" data-bs-toggle="pill" data-bs-target="#pills-conversation" type="button" role="tab" aria-controls="pills-conversation" aria-selected="false">會話練習</button>
+                        </li>
+                      </ul>
+                      <!--tab 導覽區塊-->
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <!--modal-header-->
+                    <div class="modal-body">
+                      <!--tab 內容區塊-->
+                      <div class="tab-content" id="pills-tabContent">
+
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                          <!--手風琴-->
+                          <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button fs-5 fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                  你的任務是 ↓
+                                </button>
+                              </h2>
+                              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                  <ul class="list-unstyled d-flex flex-column mb-0">
+                                    <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
+                                      <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">情境</p>
+                                      <p class="px-2 fs-6 mb-0">預計入住３天，２間房間（一間單人房、一間三人房）。</p>
+                                    </li>
+                                    <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
+                                      <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">發言順序</p>
+                                      <p class="px-2 fs-6 mb-0">第２位。</p>
+                                    </li>
+                                    <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
+                                      <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">你的任務</p>
+                                      <p class="px-2 fs-6 mb-0">與飯店櫃檯人員對話，負責幫大家辦理入住手續。</p>
+                                    </li>
+                                    <li class="d-flex flex-column flex-md-row align-items-md-start mb-2 mb-md-2 gap-1">
+                                      <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">特別任務</p>
+                                      <ul class="list-unstyled px-2 fs-6">
+                                        <li>➀、詢問房間是否有 Wi-Fi，並向櫃檯人員要 Wi-Fi 密碼。</li>
+                                        <li>➁、回答 Tina，自己為什麼學日文。</li>
+                                      </ul>
+                                    </li>
+                                    <li class="d-flex flex-column flex-md-row align-items-md-center gap-1">
+                                      <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">求救機會</p>
+                                      <p class="px-2 fs-6 mb-0">卡關時，舉手說「<span class="fw-bold text-danger text-decoration-underline">手伝ってください</span>」來獲得抽取求救卡的機會，僅限使用一次。</p>
+                                    </li>
+                                  </ul>
+                                  <!--任務清單說明-->
+                                </div>
+                                <!--accordion-body-->
+                              </div>
+                              <!--accordion-collapse-->
+                            </div>
+                            <!--accordion-->
+                          </div>
+                          <!--手風琴-->
+                          <hr>
+                          <!--手風琴-->
+                          <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed fs-5 fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+                                  老師的小提示
+                                </button>
+                              </h2>
+                              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                  同學可以先閱讀<strong>「任務卡」</strong>，根據文法句型、單字來組成句子，試著完成對話吧！
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!--手風琴-->
+                        </div>
+                        <!--tab-001-->
+
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                          <div class="d-flex flex-column flex-md-row justify-content-between  mb-3">
+                            <p class="fs-5 fw-bold mb-1">➊ 補充單字</p>
+                            <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-theme-dark rounded fs-6 fw-bolder text-light">
+                              <li><img src="img/icon-notify.svg" alt="notify" class="img-fluid d-block me-2">
+                              </li>
+                              <li>練習聽、說單字</li>
+                            </ul>
+                            <!--補充單字標題表頭-->
+                          </div>
+                          <!--補充單字-->
+                          <div class="table-responsive">
+                            <table class="table table-hover table-bordered align-middle">
+                              <thead>
+                                <tr>
+                                  <th scope="col" width="5%">#</th>
+                                  <th scope="col">單字</th>
+                                  <th scope="col">中譯</th>
+                                  <th scope="col" width="20%">聆聽</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">1</th>
+                                  <td>予約（よやく）</td>
+                                  <td>預約</td>
+                                  <td>
+                                    <button id="playButton1" class="btn btn-primary d-flex px-1 w-100">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">2</th>
+                                  <td>チェックイン</td>
+                                  <td>Check in</td>
+                                  <td>
+                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">3</th>
+                                  <td>パスポート</td>
+                                  <td>護照</td>
+                                  <td>
+                                    <button id="playButton3" class="btn btn-primary d-flex px-1 w-100">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!--table-responsive-->
+                        </div>
+                        <!--tab-002-->
+
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                          <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                            <p class="fs-5 fw-bold mb-1">➋ 文法句型</p>
+                            <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-theme-dark rounded fs-6 fw-bolder text-light">
+                              <li><img src="img/icon-notify.svg" alt="notify" class="img-fluid d-block me-2">
+                              </li>
+                              <li>練習不同句型</li>
+                            </ul>
+                            <!--補充單字標題表頭-->
+                          </div>
+                          <!--文法句型-->
+                          <div class="table-responsive">
+                            <table class="table table-hover table-bordered align-middle">
+                              <thead>
+                                <tr>
+                                  <th scope="col" width="5%">#</th>
+                                  <th scope="col" width="30%">句型結構</th>
+                                  <th scope="col" width="15%">中譯</th>
+                                  <th scope="col" width="30%">例句</th>
+                                  <th scope="col" width="20%">播放</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">1</th>
+                                  <td>N + が + あります（か）
+                                  </td>
+                                  <td>有Ｎ（嗎）</td>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>お金がありますか？</li>
+                                      <li class="text-muted fs-7">
+                                        有錢嗎？
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton4" class="btn btn-primary d-flex px-1 w-100">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">2</th>
+                                  <td>場所 + に + N + がありますか？</td>
+                                  <td>在場所有Ｎ嗎</td>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>ホテルに食べ物がありますか？</li>
+                                      <li class="text-muted fs-7">
+                                        飯店裡有吃的嗎？
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton5" class="btn btn-primary d-flex px-1 w-100">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">3</th>
+                                  <td>N + から + N + まで</td>
+                                  <td>從～～到～～</td>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>９時から１２時まで仕事をします。</li>
+                                      <li class="text-muted fs-7">
+                                        我從早上 9 點工作到中午 12 點。
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton6" class="btn btn-primary d-flex px-1 w-100">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!--table-responsive-->
+                          <hr>
+                          <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                            <p class="fs-5 fw-bold mb-1">➍ 可能形</p>
+                            <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-theme-dark rounded fs-6 fw-bolder text-light">
+                              <li><img src="img/icon-notify.svg" alt="notify" class="img-fluid d-block me-2">
+                              </li>
+                              <li>運用可能形</li>
+                            </ul>
+                            <!--可能形標題表頭-->
+                          </div>
+                          <!--可能形-->
+                          <div class="contianer">
+                            <div class="row table-responsive d-flex justify-content-between mb-0">
+                              <div class="col-md-6">
+                                <table class="table table-bordered table-hover align-middle">
+                                  <thead>
+                                    <tr class="fw-bolder">
+                                      <td colspan="5">Ⅰ 話</td>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>さ</td>
+                                      <td>ない</td>
+                                      <td>否定形</td>
+                                    </tr>
+                                    <tr>
+                                      <td>し</td>
+                                      <td>ます</td>
+                                      <td>ます形</td>
+                                    </tr>
+                                    <tr>
+                                      <td>す</td>
+                                      <td>-</td>
+                                      <td>辞書形</td>
+                                    </tr>
+                                    <tr class="table-warning">
+                                      <td>せ</td>
+                                      <td>る</td>
+                                      <td>可能形</td>
+                                    </tr>
+                                    <tr>
+                                      <td>そ</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                              <!--一個表格-->
+                              <div class="col-md-6">
+                                <table class="table table-bordered table-hover align-middle">
+                                  <thead>
+                                    <tr class="fw-bolder">
+                                      <td colspan="5">Ⅱ 話</td>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>べ</td>
+                                      <td>ない</td>
+                                      <td>否定形</td>
+                                    </tr>
+                                    <tr>
+                                      <td>べ</td>
+                                      <td>ます</td>
+                                      <td>ます形</td>
+                                    </tr>
+                                    <tr>
+                                      <td>べ</td>
+                                      <td>る</td>
+                                      <td>辞書形</td>
+                                    </tr>
+                                    <tr class="table-warning">
+                                      <td>べ</td>
+                                      <td>られる</td>
+                                      <td>可能形</td>
+                                    </tr>
+                                    <tr>
+                                      <td>べ</td>
+                                      <td>-</td>
+                                      <td>-</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                              <!--一個表格-->
+                            </div>
+                            <!--table-responsive-->
+                          </div>
+                          <!--container-->
+                        </div>
+                        <!--tab-003-->
+
+                        <div class="tab-pane fade" id="pills-conversation" role="tabpanel" aria-labelledby="pills-conversation-tab">
+
+                          <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                            <p class="fs-5 fw-bold mb-1">➊ 旅客與櫃檯人員的會話</p>
+                            <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-theme-dark rounded fs-6 fw-bolder text-light">
+                              <li><img src="img/icon-notify.svg" alt="notify" class="img-fluid d-block me-2">
+                              </li>
+                              <li>點擊紅色按鈕來聽解答</li>
+                            </ul>
+                            <!--補充單字標題表頭-->
+                          </div>
+                          <!--文法句型-->
+                          <div class="table-responsive">
+                            <table class="table table-hover table-bordered align-middle">
+                              <thead>
+                                <tr>
+                                  <th scope="col" width="15%">角色</th>
+                                  <th scope="col" width="70%">會話</th>
+                                  <th scope="col" width="15%">播放</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">お客様</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li class="text-primary">
+                                        <p class=" mb-0">お客様：すみません、____________。〇〇です。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">旅客：不好意思，我有預約。我是ＯＯ。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton2" class="btn btn-danger d-flex px-1 w-100">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--測試旅客-->
+                                <tr>
+                                  <th scope="row">フロント</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li class="">
+                                        <p class="mb-0">〇〇ですね。一泊（いっぱく）ですか？
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">ＯＯ先生，請問是入住３晚嗎？
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--櫃檯-->
+                                <tr>
+                                  <th scope="row">お客様</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="text-primary mb-0">はい。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">是的。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton2" class="btn btn-danger d-flex px-1 w-100">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--旅客-->
+                                <tr>
+                                  <th scope="row">フロント</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="mb-0">パスポートをお願い致します。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">麻煩給我您的護照，謝謝。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--櫃檯-->
+                                <tr>
+                                  <th scope="row">お客様</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="text-primary mb-0">はい。こちらです。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">好，這裡。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton2" class="btn btn-danger d-flex px-1 w-100">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--旅客-->
+                                <tr>
+                                  <th scope="row">フロント</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="mb-0">少々お待ちください。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">麻謝謝，請稍等一下。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--櫃檯-->
+                                <tr>
+                                  <th scope="row">フロント</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="mb-0">お待たせ致しました。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">久等了。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--櫃檯-->
+                                <tr>
+                                  <th scope="row">フロント</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="mb-0">こちらの資料を確認（かくにん）頂いてから、電話（でんわ）と住所（じゅうしょ）をご記入ください。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">請確認這邊的資料並填入您的電話和地址。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--櫃檯-->
+                                <tr>
+                                  <th scope="row">フロント</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="mb-0">あとは、こちらにサインをお願い致します。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">最後，請在這邊簽名。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--櫃檯-->
+                                <tr>
+                                  <th scope="row">お客様</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="text-primary mb-0">はい。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">好，這裡。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton2" class="btn btn-danger d-flex px-1 w-100">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--旅客-->
+                                <tr>
+                                  <th scope="row">フロント</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="mb-0">ありがとうございました。こちらは部屋のカードと朝の朝食券です。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">謝謝，這裡是您的房卡和早餐券。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--櫃檯-->
+                                <tr>
+                                  <th scope="row">お客様</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="text-primary mb-0">すみません、まだ部屋に行けないですか？
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">不好意思，請問早餐是幾點到幾點呢？
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton2" class="btn btn-danger d-flex px-1 w-100">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--旅客-->
+                                <tr>
+                                  <th scope="row">フロント</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="mb-0">朝食は朝7時から11時まで。朝食券をお持ち、一階のバイキングまでお願い致します。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">早餐從早上７點開始到１１點，請拿早餐券到１樓的百匯餐廳。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--櫃檯-->
+                                <tr>
+                                  <th scope="row">お客様</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="text-primary mb-0">はい。わかりました。すみませんが、部屋にWIFIがありますか？
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">好我知道了，另外房間有 Wifi 嗎？
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton2" class="btn btn-danger d-flex px-1 w-100">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--旅客-->
+                                <tr>
+                                  <th scope="row">フロント</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="mb-0">はい。部屋ではございます。パスワードはこちらです。（部屋に置いてあります。）
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">有的，密碼在這邊。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--櫃檯-->
+                                <tr>
+                                  <th scope="row">お客様</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="text-primary mb-0">ありがとうございます。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">謝謝。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton2" class="btn btn-danger d-flex px-1 w-100">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--旅客-->
+                              </tbody>
+                            </table>
+                          </div>
+                          <!--table-responsive-->
+                        </div>
+                        <!--tab-004-->
+
+                      </div>
+                      <!--tab 內容區塊-->
+                    </div>
+                    <!--modal-body-->
+
+                    <div class="modal-footer mt-auto">
+                      <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">我知道了</button>
+                    </div>
+                    <!--modal-footer-->
+                  </div>
+                </div>
+              </div>
+              <!--tabModal-1-end-->
+              <!-- tabModal-2 -->
+              <div class="modal fade" id="tabModal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header sticky-top bg-white">
+                      <h5 class="modal-title me-2" id="exampleModalLabel">對話練習</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <!--modal-header-->
+                    <div class="modal-body">
+
+                      <hr>
+
+                    </div>
+                    <!--modal-body-->
+
+                    <div class="modal-footer mt-auto">
+                      <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">我知道了！</button>
+                    </div>
+                    <!--modal-footer-->
+                  </div>
+                </div>
+              </div>
+              <!--Modal-2-end-->
+            </div>
+            <!--card-body-->
+          </div>
+          <!--card-->
+        </div>
+        <!--tab+modal 版本-->
+        <div class="col-sm-6 col-md-6 col-lg-3">
+          <div class="card shadow-sm">
             <p class="position-absolute top-0 px-4 py-2 bg-dark fs-6 fw-bold text-white">飯店櫃檯人員</p>
             <img src="img/hotel_role_001.png" class="card-img-top img-fluid bg-theme-light" alt="...">
             <div class="card-body">
@@ -472,7 +1196,7 @@
                               <th scope="row">お客様</th>
                               <td>
                                 <ul class="align-items-center list-unstyled mb-0">
-                                  <li class="">
+                                  <li>
                                     <p class="text-primary mb-0">すみません、予約（よやく）があります。〇〇です。
                                     </p>
                                     <p class="text-muted fs-7 mb-0">不好意思，我有預約。我是ＯＯ。
@@ -793,749 +1517,6 @@
           <!--card-->
         </div>
         <!--旅客初版概念-->
-        <div class="col-sm-6 col-md-6 col-lg-3">
-          <div class="card shadow-sm">
-            <p class="position-absolute top-0 px-4 py-2 bg-dark fs-6 fw-bold text-white">旅客柴柴</p>
-            <img src="img/hotel_role_003.png" class="card-img-top img-fluid bg-theme-light" alt="旅客">
-            <div class="card-body">
-              <h5 class="card-title">又要不能改了嗎</h5>
-              <p class="card-text">默默反覆複習可能需要用到的日文後，旅客試圖讓自己在與櫃檯人員交流時更加自信...
-              </p>
-              <!-- Button trigger modal -->
-              <ul class="list-unstyled d-flex flex-md-column flex-lg-row mb-0 gap-2">
-                <li class="w-100 w-md-100 w-lg-50">
-                  <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#tabModal-1">任務卡
-                  </button>
-                </li>
-                <li class="w-100 w-md-50 w-lg-50">
-                  <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#tabModal-2">對話練習
-                  </button>
-                </li>
-              </ul>
-              <!-- tabModal-1 -->
-              <div class="modal fade" id="tabModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                    <div class="modal-header align-items-center">
-                      <h5 class="modal-title me-0 fw-bolder" id="exampleModalLabel"></h5>
-                      <!--tab 導覽區塊-->
-                      <ul class="nav nav-pills mb-0 flex-nowrap overflow-auto" id="pills-tab" role="tablist">
-                        <li class="nav-item text-nowrap" role="presentation">
-                          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">任務詳情</button>
-                        </li>
-                        <li class="nav-item text-nowrap" role="presentation">
-                          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">認識單字</button>
-                        </li>
-                        <li class="nav-item text-nowrap" role="presentation">
-                          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">文法句型</button>
-                        </li>
-                        <li class="nav-item text-nowrap" role="presentation">
-                          <button class="nav-link" id="pills-conversation-tab" data-bs-toggle="pill" data-bs-target="#pills-conversation" type="button" role="tab" aria-controls="pills-conversation" aria-selected="false">會話練習</button>
-                        </li>
-                      </ul>
-                      <!--tab 導覽區塊-->
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <!--modal-header-->
-                    <div class="modal-body">
-                      <!--tab 內容區塊-->
-                      <div class="tab-content" id="pills-tabContent">
-
-                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                          <!--手風琴-->
-                          <div class="accordion" id="accordionPanelsStayOpenExample">
-                            <div class="accordion-item">
-                              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                <button class="accordion-button fs-5 fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                  你的任務是 ↓
-                                </button>
-                              </h2>
-                              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                                <div class="accordion-body">
-                                  <ul class="list-unstyled d-flex flex-column mb-0">
-                                    <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
-                                      <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">情境</p>
-                                      <p class="px-2 fs-6 mb-0">預計入住３天，２間房間（一間單人房、一間三人房）。</p>
-                                    </li>
-                                    <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
-                                      <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">發言順序</p>
-                                      <p class="px-2 fs-6 mb-0">第２位。</p>
-                                    </li>
-                                    <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
-                                      <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">你的任務</p>
-                                      <p class="px-2 fs-6 mb-0">與飯店櫃檯人員對話，負責幫大家辦理入住手續。</p>
-                                    </li>
-                                    <li class="d-flex flex-column flex-md-row align-items-md-start mb-2 mb-md-2 gap-1">
-                                      <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">特別任務</p>
-                                      <ul class="list-unstyled px-2 fs-6">
-                                        <li>➀、詢問房間是否有 Wi-Fi，並向櫃檯人員要 Wi-Fi 密碼。</li>
-                                        <li>➁、回答 Tina，自己為什麼學日文。</li>
-                                      </ul>
-                                    </li>
-                                    <li class="d-flex flex-column flex-md-row align-items-md-center gap-1">
-                                      <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">求救機會</p>
-                                      <p class="px-2 fs-6 mb-0">卡關時，舉手說「<span class="fw-bold text-danger text-decoration-underline">手伝ってください</span>」來獲得抽取求救卡的機會，僅限使用一次。</p>
-                                    </li>
-                                  </ul>
-                                  <!--任務清單說明-->
-                                </div>
-                                <!--accordion-body-->
-                              </div>
-                              <!--accordion-collapse-->
-                            </div>
-                            <!--accordion-->
-                          </div>
-                          <!--手風琴-->
-                          <hr>
-                          <!--手風琴-->
-                          <div class="accordion" id="accordionPanelsStayOpenExample">
-                            <div class="accordion-item">
-                              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                                <button class="accordion-button collapsed fs-5 fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
-                                  老師的小提示
-                                </button>
-                              </h2>
-                              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                                <div class="accordion-body">
-                                  同學可以先閱讀<strong>「任務卡」</strong>，根據文法句型、單字來組成句子，試著完成對話吧！
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <!--手風琴-->
-                        </div>
-                        <!--tab-001-->
-
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                          <div class="d-flex flex-column flex-md-row justify-content-between  mb-3">
-                            <p class="fs-5 fw-bold mb-1">➊ 補充單字</p>
-                            <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-theme-dark rounded fs-6 fw-bolder text-light">
-                              <li><img src="img/icon-notify.svg" alt="notify" class="img-fluid d-block me-2">
-                              </li>
-                              <li>練習聽、說單字</li>
-                            </ul>
-                            <!--補充單字標題表頭-->
-                          </div>
-                          <!--補充單字-->
-                          <div class="table-responsive">
-                            <table class="table table-hover table-bordered align-middle">
-                              <thead>
-                                <tr>
-                                  <th scope="col" width="5%">#</th>
-                                  <th scope="col">單字</th>
-                                  <th scope="col">中譯</th>
-                                  <th scope="col" width="20%">聆聽</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <th scope="row">1</th>
-                                  <td>予約（よやく）</td>
-                                  <td>預約</td>
-                                  <td>
-                                    <button id="playButton1" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <th scope="row">2</th>
-                                  <td>チェックイン</td>
-                                  <td>Check in</td>
-                                  <td>
-                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <th scope="row">3</th>
-                                  <td>パスポート</td>
-                                  <td>護照</td>
-                                  <td>
-                                    <button id="playButton3" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
-                          <!--table-responsive-->
-                        </div>
-                        <!--tab-002-->
-
-                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                          <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
-                            <p class="fs-5 fw-bold mb-1">➋ 文法句型</p>
-                            <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-theme-dark rounded fs-6 fw-bolder text-light">
-                              <li><img src="img/icon-notify.svg" alt="notify" class="img-fluid d-block me-2">
-                              </li>
-                              <li>練習不同句型</li>
-                            </ul>
-                            <!--補充單字標題表頭-->
-                          </div>
-                          <!--文法句型-->
-                          <div class="table-responsive">
-                            <table class="table table-hover table-bordered align-middle">
-                              <thead>
-                                <tr>
-                                  <th scope="col" width="5%">#</th>
-                                  <th scope="col" width="30%">句型結構</th>
-                                  <th scope="col" width="15%">中譯</th>
-                                  <th scope="col" width="30%">例句</th>
-                                  <th scope="col" width="20%">播放</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <th scope="row">1</th>
-                                  <td>N + が + あります（か）
-                                  </td>
-                                  <td>有Ｎ（嗎）</td>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li>お金がありますか？</li>
-                                      <li class="text-muted fs-7">
-                                        有錢嗎？
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton4" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <th scope="row">2</th>
-                                  <td>場所 + に + N + がありますか？</td>
-                                  <td>在場所有Ｎ嗎</td>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li>ホテルに食べ物がありますか？</li>
-                                      <li class="text-muted fs-7">
-                                        飯店裡有吃的嗎？
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton5" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <th scope="row">3</th>
-                                  <td>N + から + N + まで</td>
-                                  <td>從～～到～～</td>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li>９時から１２時まで仕事をします。</li>
-                                      <li class="text-muted fs-7">
-                                        我從早上 9 點工作到中午 12 點。
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton6" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
-                          <!--table-responsive-->
-                          <hr>
-                          <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
-                            <p class="fs-5 fw-bold mb-1">➍ 可能形</p>
-                            <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-theme-dark rounded fs-6 fw-bolder text-light">
-                              <li><img src="img/icon-notify.svg" alt="notify" class="img-fluid d-block me-2">
-                              </li>
-                              <li>運用可能形</li>
-                            </ul>
-                            <!--可能形標題表頭-->
-                          </div>
-                          <!--可能形-->
-                          <div class="contianer">
-                            <div class="row table-responsive d-flex justify-content-between mb-0">
-                              <div class="col-md-6">
-                                <table class="table table-bordered table-hover align-middle">
-                                  <thead>
-                                    <tr class="fw-bolder">
-                                      <td colspan="5">Ⅰ 話</td>
-                                    </tr>
-                                  </thead>
-                                  <tbody>
-                                    <tr>
-                                      <td>さ</td>
-                                      <td>ない</td>
-                                      <td>否定形</td>
-                                    </tr>
-                                    <tr>
-                                      <td>し</td>
-                                      <td>ます</td>
-                                      <td>ます形</td>
-                                    </tr>
-                                    <tr>
-                                      <td>す</td>
-                                      <td>-</td>
-                                      <td>辞書形</td>
-                                    </tr>
-                                    <tr class="table-warning">
-                                      <td>せ</td>
-                                      <td>る</td>
-                                      <td>可能形</td>
-                                    </tr>
-                                    <tr>
-                                      <td>そ</td>
-                                      <td>-</td>
-                                      <td>-</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </div>
-                              <!--一個表格-->
-                              <div class="col-md-6">
-                                <table class="table table-bordered table-hover align-middle">
-                                  <thead>
-                                    <tr class="fw-bolder">
-                                      <td colspan="5">Ⅱ 話</td>
-                                    </tr>
-                                  </thead>
-                                  <tbody>
-                                    <tr>
-                                      <td>べ</td>
-                                      <td>ない</td>
-                                      <td>否定形</td>
-                                    </tr>
-                                    <tr>
-                                      <td>べ</td>
-                                      <td>ます</td>
-                                      <td>ます形</td>
-                                    </tr>
-                                    <tr>
-                                      <td>べ</td>
-                                      <td>る</td>
-                                      <td>辞書形</td>
-                                    </tr>
-                                    <tr class="table-warning">
-                                      <td>べ</td>
-                                      <td>られる</td>
-                                      <td>可能形</td>
-                                    </tr>
-                                    <tr>
-                                      <td>べ</td>
-                                      <td>-</td>
-                                      <td>-</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </div>
-                              <!--一個表格-->
-                            </div>
-                            <!--table-responsive-->
-                          </div>
-                          <!--container-->
-                        </div>
-                        <!--tab-003-->
-
-                        <div class="tab-pane fade" id="pills-conversation" role="tabpanel" aria-labelledby="pills-conversation-tab">
-
-                          <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
-                            <p class="fs-5 fw-bold mb-1">➊ 旅客與櫃檯人員的會話</p>
-                            <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-theme-dark rounded fs-6 fw-bolder text-light">
-                              <li><img src="img/icon-notify.svg" alt="notify" class="img-fluid d-block me-2">
-                              </li>
-                              <li>點擊紅色按鈕來聽解答</li>
-                            </ul>
-                            <!--補充單字標題表頭-->
-                          </div>
-                          <!--文法句型-->
-                          <div class="table-responsive">
-                            <table class="table table-hover table-bordered align-middle">
-                              <thead>
-                                <tr>
-                                  <th scope="col" width="15%">角色</th>
-                                  <th scope="col" width="70%">會話</th>
-                                  <th scope="col" width="15%">播放</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <th scope="row">お客様</th>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li class="text-primary">
-                                        <p class=" mb-0">すみません、____________。〇〇です。
-                                        </p>
-                                        <p class="text-muted fs-7 mb-0">不好意思，我有預約。我是ＯＯ。
-                                        </p>
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton2" class="btn btn-danger d-flex px-1 w-100">
-                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <!--測試旅客-->
-                                <tr>
-                                  <th scope="row">お客様</th>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li class="">
-                                        <p class="text-primary mb-0">すみません、予約（よやく）があります。〇〇です。
-                                        </p>
-                                        <p class="text-muted fs-7 mb-0">不好意思，我有預約。我是ＯＯ。
-                                        </p>
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <!--旅客-->
-                                <tr>
-                                  <th scope="row">フロント</th>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li class="">
-                                        <p class="mb-0">〇〇ですね。一泊（いっぱく）ですか？
-                                        </p>
-                                        <p class="text-muted fs-7 mb-0">ＯＯ先生，請問是入住３晚嗎？
-                                        </p>
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <!--櫃檯-->
-                                <tr>
-                                  <th scope="row">お客様</th>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li class="">
-                                        <p class="text-primary mb-0">はい。
-                                        </p>
-                                        <p class="text-muted fs-7 mb-0">是的。
-                                        </p>
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <!--旅客-->
-                                <tr>
-                                  <th scope="row">フロント</th>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li class="">
-                                        <p class="mb-0">パスポートをお願い致します。
-                                        </p>
-                                        <p class="text-muted fs-7 mb-0">麻煩給我您的護照，謝謝。
-                                        </p>
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <!--櫃檯-->
-                                <tr>
-                                  <th scope="row">お客様</th>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li class="">
-                                        <p class="text-primary mb-0">はい。こちらです。
-                                        </p>
-                                        <p class="text-muted fs-7 mb-0">好，這裡。
-                                        </p>
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <!--旅客-->
-                                <tr>
-                                  <th scope="row">フロント</th>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li class="">
-                                        <p class="mb-0">少々お待ちください。
-                                        </p>
-                                        <p class="text-muted fs-7 mb-0">麻謝謝，請稍等一下。
-                                        </p>
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <!--櫃檯-->
-                                <tr>
-                                  <th scope="row">フロント</th>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li class="">
-                                        <p class="mb-0">お待たせ致しました。
-                                        </p>
-                                        <p class="text-muted fs-7 mb-0">久等了。
-                                        </p>
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <!--櫃檯-->
-                                <tr>
-                                  <th scope="row">フロント</th>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li class="">
-                                        <p class="mb-0">こちらの資料を確認（かくにん）頂いてから、電話（でんわ）と住所（じゅうしょ）をご記入ください。
-                                        </p>
-                                        <p class="text-muted fs-7 mb-0">請確認這邊的資料並填入您的電話和地址。
-                                        </p>
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <!--櫃檯-->
-                                <tr>
-                                  <th scope="row">フロント</th>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li class="">
-                                        <p class="mb-0">あとは、こちらにサインをお願い致します。
-                                        </p>
-                                        <p class="text-muted fs-7 mb-0">最後，請在這邊簽名。
-                                        </p>
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <!--櫃檯-->
-                                <tr>
-                                  <th scope="row">お客様</th>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li class="">
-                                        <p class="text-primary mb-0">はい。
-                                        </p>
-                                        <p class="text-muted fs-7 mb-0">好，這裡。
-                                        </p>
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <!--旅客-->
-                                <tr>
-                                  <th scope="row">フロント</th>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li class="">
-                                        <p class="mb-0">ありがとうございました。こちらは部屋のカードと朝の朝食券です。
-                                        </p>
-                                        <p class="text-muted fs-7 mb-0">謝謝，這裡是您的房卡和早餐券。
-                                        </p>
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <!--櫃檯-->
-                                <tr>
-                                  <th scope="row">お客様</th>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li class="">
-                                        <p class="text-primary mb-0">すみません、まだ部屋に行けないですか？
-                                        </p>
-                                        <p class="text-muted fs-7 mb-0">不好意思，請問早餐是幾點到幾點呢？
-                                        </p>
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <!--旅客-->
-                                <tr>
-                                  <th scope="row">フロント</th>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li class="">
-                                        <p class="mb-0">朝食は朝7時から11時まで。朝食券をお持ち、一階のバイキングまでお願い致します。
-                                        </p>
-                                        <p class="text-muted fs-7 mb-0">早餐從早上７點開始到１１點，請拿早餐券到１樓的百匯餐廳。
-                                        </p>
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <!--櫃檯-->
-                                <tr>
-                                  <th scope="row">お客様</th>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li class="">
-                                        <p class="text-primary mb-0">はい。わかりました。すみませんが、部屋にWIFIがありますか？
-                                        </p>
-                                        <p class="text-muted fs-7 mb-0">好我知道了，另外房間有 Wifi 嗎？
-                                        </p>
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <!--旅客-->
-                                <tr>
-                                  <th scope="row">フロント</th>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li class="">
-                                        <p class="mb-0">はい。部屋ではございます。パスワードはこちらです。（部屋に置いてあります。）
-                                        </p>
-                                        <p class="text-muted fs-7 mb-0">有的，密碼在這邊。
-                                        </p>
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <!--櫃檯-->
-                                <tr>
-                                  <th scope="row">お客様</th>
-                                  <td>
-                                    <ul class="align-items-center list-unstyled mb-0">
-                                      <li class="">
-                                        <p class="text-primary mb-0">ありがとうございます。
-                                        </p>
-                                        <p class="text-muted fs-7 mb-0">謝謝。
-                                        </p>
-                                      </li>
-                                    </ul>
-                                  </td>
-                                  <td>
-                                    <button id="playButton2" class="btn btn-primary d-flex px-1 w-100">
-                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                    </button>
-                                  </td>
-                                </tr>
-                                <!--旅客-->
-                              </tbody>
-                            </table>
-                          </div>
-                          <!--table-responsive-->
-                        </div>
-                        <!--tab-004-->
-
-                      </div>
-                      <!--tab 內容區塊-->
-                    </div>
-                    <!--modal-body-->
-
-                    <div class="modal-footer mt-auto">
-                      <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">我知道了</button>
-                    </div>
-                    <!--modal-footer-->
-                  </div>
-                </div>
-              </div>
-              <!--tabModal-1-end-->
-              <!-- tabModal-2 -->
-              <div class="modal fade" id="tabModal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content">
-                    <div class="modal-header sticky-top bg-white">
-                      <h5 class="modal-title me-2" id="exampleModalLabel">對話練習</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <!--modal-header-->
-                    <div class="modal-body">
-
-                      <hr>
-
-                    </div>
-                    <!--modal-body-->
-
-                    <div class="modal-footer mt-auto">
-                      <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">我知道了！</button>
-                    </div>
-                    <!--modal-footer-->
-                  </div>
-                </div>
-              </div>
-              <!--Modal-2-end-->
-            </div>
-            <!--card-body-->
-          </div>
-          <!--card-->
-        </div>
-        <!--tab+modal 版本-->
         <div class="col-sm-6 col-md-6 col-lg-3">
           <div class="card shadow-sm">
             <p class="position-absolute top-0 px-4 py-2 bg-dark fs-6 fw-bold text-white">旅客</p>
