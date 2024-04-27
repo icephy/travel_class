@@ -18,6 +18,11 @@
     font-size: 14px;
 }
 
-.nav-pills::-webkit-scrollbar {
+.nav::-webkit-scrollbar{
     display: none;
-  }
+}
+
+.nav{
+    scrollbar-width: none; /* firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+}
