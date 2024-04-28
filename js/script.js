@@ -1,7 +1,7 @@
 // 播放聲音的函式
 function PlaySound(soundName) {
   // 根據聲音名稱播放對應的聲音
-  // 任務卡001 
+  // 任務卡001-會話區塊 
   switch(soundName) {
     case 'hotelLessonOneAConv_001':
       var hotelLessonOneAConv_001 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/A/conversation/hotelLessonOneAConv_001.mp3');
@@ -64,7 +64,19 @@ function PlaySound(soundName) {
       hotelLessonOneAConv_006.play();
       break;
 
-
+  // 任務卡001-會話區塊 
+    case 'hotelLessonOneAVocab_001':
+      var hotelLessonOneAVocab_001 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/A/vocabulary/hotelLessonOneAVocab_001.mp3');
+      hotelLessonOneAVocab_001.play();
+      break;
+    case 'hotelLessonOneAVocab_002':
+      var hotelLessonOneAVocab_002 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/A/vocabulary/hotelLessonOneAVocab_002.mp3');
+      hotelLessonOneAVocab_002.play();
+      break;
+    case 'hotelLessonOneAVocab_003':
+      var hotelLessonOneAVocab_003 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/A/vocabulary/hotelLessonOneAVocab_003.mp3');
+      hotelLessonOneAVocab_003.play();
+      break;
 
     // 其他聲音的處理
     default:
