@@ -44,7 +44,7 @@ function PlaySound(soundName) {
       hotelLessonOneDConv_007.play();
       break;
     case 'hotelLessonOneAConv_004':
-      var hotelLessonOneAConv_004 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/D/conversation/hotelLessonOneAConv_004.mp3');
+      var hotelLessonOneAConv_004 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/A/conversation/hotelLessonOneAConv_004.mp3');
       hotelLessonOneAConv_004.play();
       break;
     case 'hotelLessonOneDConv_008':
