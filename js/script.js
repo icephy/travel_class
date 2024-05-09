@@ -78,7 +78,7 @@ function PlaySound(soundName) {
       hotelLessonOneAVocab_003.play();
       break;
 
-  
+  // 任務卡B-001-會話
     case 'hotelLessonOneBConv_001':
         var hotelLessonOneBConv_001 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/B/conversation/hotelLessonOneBConv_001.mp3');
         hotelLessonOneBConv_001.play();
