@@ -83,6 +83,14 @@ function PlaySound(soundName) {
         var hotelLessonOneBConv_001 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/B/conversation/hotelLessonOneBConv_001.mp3');
         hotelLessonOneBConv_001.play();
       break;
+    case 'hotelLessonOneDConv_010':
+        var hotelLessonOneDConv_010 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/D/conversation/hotelLessonOneDConv_010.mp3');
+        hotelLessonOneDConv_010.play();
+      break;
+    case 'hotelLessonOneBConv_002':
+        var hotelLessonOneBConv_002 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/B/conversation/hotelLessonOneBConv_002.mp3');
+        hotelLessonOneBConv_002.play();
+      break;
 
     // 其他聲音的處理
     default:
