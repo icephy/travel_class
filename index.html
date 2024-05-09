@@ -1970,35 +1970,643 @@
         <!--C-Card-->
         <div class="col-sm-6 col-md-6 col-lg-3">
           <div class="card shadow-sm">
-            <p class="position-absolute top-0 px-4 py-2 bg-dark fs-6 fw-bold text-white">旅客</p>
-            <img src="img/hotel_role_004.png" class="card-img-top img-fluid bg-theme-light" alt="...">
+            <p class="position-absolute top-0 px-4 py-2 bg-dark fs-6 fw-bold text-white">飯店櫃檯</p>
+            <img src="img/hotel_role_001.png" class="card-img-top img-fluid bg-theme-light" alt="旅客">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+              <h5 class="card-title">收取住宿費用任務</h5>
+              <p class="card-text">櫃檯人員幫助房客們入住飯店，除了回答旅客們的各種問題，也要謹慎的收取住宿費用...
               </p>
               <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">查看任務內容
-              </button>
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
+              <ul class="list-unstyled d-flex flex-md-column flex-lg-row mb-0 gap-2">
+                <li class="w-100 w-md-100 w-lg-50">
+                  <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneDModalTask_001">進入任務
+                  </button>
+                </li>
+                <li class="w-100 w-md-50 w-lg-50">
+                  <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneDModalProps_001">獲取道具
+                  </button>
+                </li>
+              </ul>
+              <!-- hotelLessonOneDModalTask_001 -->
+              <div class="modal fade" id="hotelLessonOneDModalTask_001" tabindex="-1" aria-labelledby="hotelLessonOneDModalTask_001_heading" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
                   <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <div class="modal-header align-items-center">
+                      <h5 class="modal-title me-0 fw-bolder" id="hotelLessonOneDModalTask_001_heading"></h5>
+                      <!--tab 導覽區塊-->
+                      <ul class="nav nav-pills mb-0 flex-nowrap overflow-auto" id="hotelLessonOneDTaskCardTabs" role="tablist">
+                        <li class="nav-item text-nowrap" role="presentation">
+                          <button class="nav-link active" id="hotelLessonOneDTaskCardTabs_Info" data-bs-toggle="pill" data-bs-target="#hotelLessonOneDTaskCardTabs_001" type="button" role="tab" aria-controls="hotelLessonOneDTaskCardTabs_001" aria-selected="true">任務詳情</button>
+                        </li>
+                        <li class="nav-item text-nowrap" role="presentation">
+                          <button class="nav-link" id="hotelLessonOneDTaskCardTabs_Vocabulary" data-bs-toggle="pill" data-bs-target="#hotelLessonOneDTaskCardTabs_002" type="button" role="tab" aria-controls="hotelLessonOneDTaskCardTabs_002" aria-selected="false">認識單字</button>
+                        </li>
+                        <li class="nav-item text-nowrap" role="presentation">
+                          <button class="nav-link" id="hotelLessonOneDTaskCardTabs_Grammar" data-bs-toggle="pill" data-bs-target="#hotelLessonOneDTaskCardTabs_003" type="button" role="tab" aria-controls="hotelLessonOneDTaskCardTabs_003" aria-selected="false">文法句型</button>
+                        </li>
+                        <li class="nav-item text-nowrap" role="presentation">
+                          <button class="nav-link" id="hotelLessonOneDTaskCardTabs_Practice" data-bs-toggle="pill" data-bs-target="#hotelLessonOneDTaskCardTabs_004" type="button" role="tab" aria-controls="hotelLessonOneDTaskCardTabs_004" aria-selected="false">聽寫練習</button>
+                        </li>
+                      </ul>
+                      <!--tab 導覽區塊-->
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
+                    <!--modal-header-->
                     <div class="modal-body">
-                      這邊說明角色卡片內容
+                      <!--tab 內容區塊-->
+                      <div class="tab-content" id="hotelLessonOneDTaskCardTabs_tabContent">
+
+                        <div class="tab-pane fade show active" id="hotelLessonOneDTaskCardTabs_001" role="tabpanel" aria-labelledby="hotelLessonOneDTaskCardTabs_Info">
+                          <!--手風琴-->
+                          <div class="accordion" id="hotelLessonOneDTaskCardAccordion_001">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="hotelLessonOneDTaskCardAccordion_001_heading">
+                                <button class="accordion-button fs-5 fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#hotelLessonOneDTaskCardAccordion_001_collapseContent" aria-expanded="true" aria-controls="hotelLessonOneDTaskCardAccordion_001_collapseContent">
+                                  你的任務是...
+                                </button>
+                              </h2>
+                              <div id="hotelLessonOneDTaskCardAccordion_001_collapseContent" class="accordion-collapse collapse show" aria-labelledby="hotelLessonOneDTaskCardAccordion_001_heading">
+                                <div class="accordion-body">
+                                  <ul class="list-unstyled d-flex flex-column mb-0">
+                                    <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
+                                      <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">情境</p>
+                                      <p class="px-2 fs-6 mb-0">預計入住３天，２間房間（一間單人房、一間三人房）。</p>
+                                    </li>
+                                    <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
+                                      <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">發言順序</p>
+                                      <p class="px-2 fs-6 mb-0">第２位。</p>
+                                    </li>
+                                    <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
+                                      <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">你的任務</p>
+                                      <p class="px-2 fs-6 mb-0">與飯店櫃檯人員對話，負責幫大家辦理入住手續。</p>
+                                    </li>
+                                    <li class="d-flex flex-column flex-md-row align-items-md-start mb-2 mb-md-2 gap-1">
+                                      <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">特別任務</p>
+                                      <ul class="list-unstyled px-2 fs-6">
+                                        <li>➀、詢問房間是否有 Wi-Fi，並向櫃檯人員要 Wi-Fi 密碼。</li>
+                                        <li>➁、回答 Tina，自己為什麼學日文。</li>
+                                      </ul>
+                                    </li>
+                                    <li class="d-flex flex-column flex-md-row align-items-md-center gap-1">
+                                      <p class="px-2 py-1 bg-theme-light rounded fs-6 fw-bolder mb-0">求救機會</p>
+                                      <p class="px-2 fs-6 mb-0">卡關時，舉手說「<span class="fw-bold text-danger text-decoration-underline">手伝ってください</span>」來獲得抽取求救卡的機會，僅限使用一次。</p>
+                                    </li>
+                                  </ul>
+                                  <!--任務清單說明-->
+                                </div>
+                                <!--accordion-body-->
+                              </div>
+                              <!--accordion-collapse-->
+                            </div>
+                            <!--accordion-->
+                          </div>
+                          <!--手風琴-->
+                          <hr>
+                          <!--手風琴-->
+                          <div class="accordion" id="hotelLessonOneDTaskCardAccordion_002">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="hotelLessonOneDTaskCardAccordion_002_heading">
+                                <button class="accordion-button collapsed fs-5 fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#hotelLessonOneDTaskCardAccordion_002_collapseContent" aria-expanded="true" aria-controls="hotelLessonOneDTaskCardAccordion_002_collapseContent">
+                                  老師的小提示
+                                </button>
+                              </h2>
+                              <div id="hotelLessonOneDTaskCardAccordion_002_collapseContent" class="accordion-collapse collapse" aria-labelledby="hotelLessonOneDTaskCardAccordion_002_heading">
+                                <div class="accordion-body">
+                                  同學可以先閱讀<strong>「任務卡」</strong>，根據文法句型、單字來組成句子，試著完成對話吧！
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!--手風琴-->
+                        </div>
+                        <!--tab-001-->
+
+                        <div class="tab-pane fade" id="hotelLessonOneDTaskCardTabs_002" role="tabpanel" aria-labelledby="hotelLessonOneDTaskCardTabs_Vocabulary">
+                          <div class="d-flex flex-column flex-md-row justify-content-between  mb-3">
+                            <p class="fs-5 fw-bold mb-1">➊ 補充單字</p>
+                            <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-theme-dark rounded fs-6 fw-bolder text-light">
+                              <li><img src="img/icon-notify.svg" alt="notify" class="img-fluid d-block me-2">
+                              </li>
+                              <li>練習聽、說單字</li>
+                            </ul>
+                            <!--補充單字標題表頭-->
+                          </div>
+                          <!--補充單字-->
+                          <div class="table-responsive">
+                            <table class="table table-hover table-bordered align-middle">
+                              <thead>
+                                <tr>
+                                  <th scope="col" width="5%">#</th>
+                                  <th scope="col">單字</th>
+                                  <th scope="col">中譯</th>
+                                  <th scope="col" width="20%">聆聽</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">1</th>
+                                  <td>予約（よやく）</td>
+                                  <td>預約</td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneAVocab_001')">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">2</th>
+                                  <td>チェックイン</td>
+                                  <td>Check in</td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneAVocab_002')">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">3</th>
+                                  <td>パスポート</td>
+                                  <td>護照</td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneAVocab_003')">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!--table-responsive-->
+                        </div>
+                        <!--tab-002-->
+
+                        <div class="tab-pane fade" id="hotelLessonOneDTaskCardTabs_003" role="tabpanel" aria-labelledby="hotelLessonOneDTaskCardTabs_Grammar">
+                          <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                            <p class="fs-5 fw-bold mb-1">➋ 文法句型</p>
+                            <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-theme-dark rounded fs-6 fw-bolder text-light">
+                              <li><img src="img/icon-notify.svg" alt="notify" class="img-fluid d-block me-2">
+                              </li>
+                              <li>練習不同句型</li>
+                            </ul>
+                            <!--補充單字標題表頭-->
+                          </div>
+                          <!--文法句型-->
+                          <div class="table-responsive">
+                            <table class="table table-hover table-bordered align-middle">
+                              <thead>
+                                <tr>
+                                  <th scope="col" width="5%">#</th>
+                                  <th scope="col" width="30%">句型結構</th>
+                                  <th scope="col" width="15%">中譯</th>
+                                  <th scope="col" width="30%">例句</th>
+                                  <th scope="col" width="20%">播放</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">1</th>
+                                  <td>N + が + あります（か）
+                                  </td>
+                                  <td>有Ｎ（嗎）</td>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>お金がありますか？</li>
+                                      <li class="text-muted fs-7">
+                                        有錢嗎？
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton4" class="btn btn-primary d-flex px-1 w-100">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">2</th>
+                                  <td>場所 + に + N + がありますか？</td>
+                                  <td>在場所有Ｎ嗎</td>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>ホテルに食べ物がありますか？</li>
+                                      <li class="text-muted fs-7">
+                                        飯店裡有吃的嗎？
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton5" class="btn btn-primary d-flex px-1 w-100">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">3</th>
+                                  <td>N + から + N + まで</td>
+                                  <td>從～～到～～</td>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>９時から１２時まで仕事をします。</li>
+                                      <li class="text-muted fs-7">
+                                        我從早上 9 點工作到中午 12 點。
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button id="playButton6" class="btn btn-primary d-flex px-1 w-100">
+                                      <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <!--table-responsive-->
+                        </div>
+                        <!--tab-003-->
+
+                        <div class="tab-pane fade" id="hotelLessonOneDTaskCardTabs_004" role="tabpanel" aria-labelledby="hotelLessonOneDTaskCardTabs_Practice">
+
+                          <div class="d-flex flex-column flex-md-row justify-content-between mb-3"> 
+                            <p class="fs-5 fw-bold mb-1">你正在與櫃檯人員對話...</p>
+                            <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-theme-dark rounded fs-6 fw-bolder text-light">
+                              <li><img src="img/icon-notify.svg" alt="notify" class="img-fluid d-block me-2">
+                              </li>
+                              <li>點擊紅色按鈕來聽解答</li>
+                            </ul>
+                            <!--補充單字標題表頭-->  
+                          </div>
+                          <!--聽寫練習引導說明-->
+                          <ul class="list-unstyled">
+                            <li class="d-flex align-items-center"><span class="badge bg-primary me-2">初級</span>點擊播放按鈕，試著聽寫出空缺的句子。</li>
+                            <li class="d-flex align-items-center"><span class="badge bg-primary me-2">進階</span>試著先不聽聲音，複習單字、文法句型後，嘗試完成句子！</li>
+                          </ul>
+                          <!--聽寫練習引導說明-->
+                          <!--文法句型-->
+                          <div class="table-responsive">
+                            <table class="table table-hover table-bordered align-middle">
+                              <thead>
+                                <tr>
+                                  <th scope="col" width="15%">角色</th>
+                                  <th scope="col" width="70%">會話</th>
+                                  <th scope="col" width="15%">播放</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">お客様</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li class="text-primary">
+                                        <p class=" mb-0">すみません、____________。〇〇です。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">旅客：不好意思，我有預約。我是ＯＯ。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">※「ＯＯ」可填入自己的名字，此對話以「ひろし」作為範例。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneAConv_001')">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--旅客-->
+                                <tr>
+                                  <th scope="row">フロント</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="mb-0">〇〇ですね。三泊（さんぱく）ですか？
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">ＯＯ先生，請問是入住３晚嗎？
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneDConv_001')">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--櫃檯-->
+                                <tr>
+                                  <th scope="row">お客様</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="text-primary mb-0">はい。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">是的。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneAConv_002')">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--旅客-->
+                                <tr>
+                                  <th scope="row">フロント</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="mb-0">パスポートをお願い致します。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">麻煩給我您的護照，謝謝。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneDConv_002')">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--櫃檯-->
+                                <tr>
+                                  <th scope="row">お客様</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="text-primary mb-0">はい。こちらです。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">好，這裡。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneAConv_003')">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--旅客-->
+                                <tr>
+                                  <th scope="row">フロント</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="mb-0">少々お待ちください。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">謝謝，請稍等一下。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneDConv_003')">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--櫃檯-->
+                                <tr>
+                                  <th scope="row">フロント</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="mb-0">お待たせ致しました。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">久等了。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneDConv_004')">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--櫃檯-->
+                                <tr>
+                                  <th scope="row">フロント</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="mb-0">こちらの資料を確認（かくにん）頂いてから、電話（でんわ）と住所（じゅうしょ）をご記入ください。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">請確認這邊的資料並填入您的電話和地址。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneDConv_005')">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--櫃檯-->
+                                <tr>
+                                  <th scope="row">フロント</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="mb-0">あとは、こちらにサインをお願い致します。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">最後，請在這邊簽名。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneDConv_006')">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--櫃檯-->
+                                <tr>
+                                  <th scope="row">お客様</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="text-primary mb-0">はい。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">好，這裡。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneAConv_002')">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--旅客-->
+                                <tr>
+                                  <th scope="row">フロント</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="mb-0">ありがとうございました。こちらは部屋のカードと朝の朝食券です。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">謝謝，這裡是您的房卡和早餐券。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneDConv_007')">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--櫃檯-->
+                                <tr>
+                                  <th scope="row">お客様</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="text-primary mb-0">すみません、朝ごはんは何時から何時までですか？
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">不好意思，請問早餐是幾點到幾點呢？
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneAConv_004')">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--旅客-->
+                                <tr>
+                                  <th scope="row">フロント</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="mb-0">朝食は朝７時から１１時まで。朝食券をお持ち、一階のバイキングまでお願い致します。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">早餐從早上 7 點開始到 11 點，請拿早餐券到 1 樓的百匯餐廳。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneDConv_008')">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--櫃檯-->
+                                <tr>
+                                  <th scope="row">お客様</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="text-primary mb-0">はい。わかりました。すみませんが、部屋に Wi-Fi がありますか？
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">好我知道了，另外房間有 Wi-Fi 嗎？
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneAConv_005')">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--旅客-->
+                                <tr>
+                                  <th scope="row">フロント</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="mb-0">はい。部屋ではございます。パスワードはこちらです。（部屋に置いてあります。）
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">有的，密碼在這邊。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneDConv_009')">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--櫃檯-->
+                                <tr>
+                                  <th scope="row">お客様</th>
+                                  <td>
+                                    <ul class="align-items-center list-unstyled mb-0">
+                                      <li>
+                                        <p class="text-primary mb-0">ありがとうございます。
+                                        </p>
+                                        <p class="text-muted fs-7 mb-0">謝謝。
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </td>
+                                  <td>
+                                    <button class="btn btn-primary d-flex px-1 w-100" onmousedown="PlaySound('hotelLessonOneAConv_006')">
+                                      <img src="img/icon-ear.svg" alt="ear" class="img-fluid d-block mx-auto">
+                                    </button>
+                                  </td>
+                                </tr>
+                                <!--旅客-->
+                              </tbody>
+                            </table>
+                          </div>
+                          <!--table-responsive-->
+                        </div>
+                        <!--tab-004-->
+
+                      </div>
+                      <!--tab 內容區塊-->
                     </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">我知道了！</button>
+                    <!--modal-body-->
+
+                    <div class="modal-footer mt-auto">
+                      <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">我知道了</button>
                     </div>
+                    <!--modal-footer-->
                   </div>
                 </div>
               </div>
-              <!--end-->
+              <!--hotelLessonOneDModalTask_001-end-->
+              <!--hotelLessonOneDModalProps_001-->
+              <div class="modal fade" id="hotelLessonOneDModalProps_001" tabindex="-1" aria-labelledby="hotelLessonOneDModalProps_001_heading" aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                  <div class="modal-content">
+                    <div class="modal-header sticky-top bg-white">
+                      <h5 class="modal-title me-2" id="hotelLessonOneDModalProps_001_heading">房卡</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <!--modal-header-->
+                    <div class="modal-body">
+                      <p class="mb-2">查看任務卡，完成「聽寫練習」裡空缺的句子，寫下答案以獲得現金道具！</p>
+                      <img src="img/D_props_cover.png" alt="道具圖" class="img-fluid w-100">
+                    </div>
+                    <!--modal-body-->
+
+                    <div class="modal-footer mt-auto">
+                      <a href="https://docs.google.com/document/d/1M-s-kX3V8IFRsQqALrNaOVuLDgyy2jakOhLIvM3QZXY/edit" target="_blank" class="btn btn-danger w-100">前往寫答案</a>
+                      <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">我知道了！</button> -->
+                    </div>
+                    <!--modal-footer-->
+                  </div>
+                </div>
+              </div>
+              <!--hotelLessonOneDModalProps_001-end-->
             </div>
+            <!--card-body-->
           </div>
+          <!--card-->
         </div>
         <!--col-->
       </div>
