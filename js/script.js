@@ -116,6 +116,29 @@ function PlaySound(soundName) {
         hotelLessonOneEConv_003.play();
       break;
 
+    // 任務卡B-001-單字
+    case 'hotelLessonOneBVocab_001':
+        var hotelLessonOneBVocab_001 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/B/vocabulary/hotelLessonOneBVocab_001.mp3');
+        hotelLessonOneBVocab_001.play();
+      break;
+    case 'hotelLessonOneBVocab_002':
+        var hotelLessonOneBVocab_002 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/B/vocabulary/hotelLessonOneBVocab_002.mp3');
+        hotelLessonOneBVocab_002.play();
+      break;
+    case 'hotelLessonOneBVocab_003':
+        var hotelLessonOneBVocab_003 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/B/vocabulary/hotelLessonOneBVocab_003.mp3');
+        hotelLessonOneBVocab_003.play();
+      break;
+    case 'hotelLessonOneBVocab_004':
+        var hotelLessonOneBVocab_004 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/B/vocabulary/hotelLessonOneBVocab_004.mp3');
+        hotelLessonOneBVocab_004.play();
+      break;
+    case 'hotelLessonOneBVocab_005':
+        var hotelLessonOneBVocab_005 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/B/vocabulary/hotelLessonOneBVocab_005.mp3');
+        hotelLessonOneBVocab_005.play();
+      break;
+
+
     // 其他聲音的處理
     default:
       // 聲音未定義的情況
