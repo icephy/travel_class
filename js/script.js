@@ -91,6 +91,30 @@ function PlaySound(soundName) {
         var hotelLessonOneBConv_002 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/B/conversation/hotelLessonOneBConv_002.mp3');
         hotelLessonOneBConv_002.play();
       break;
+    case 'hotelLessonOneDConv_011':
+        var hotelLessonOneDConv_011 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/D/conversation/hotelLessonOneDConv_011.mp3');
+        hotelLessonOneDConv_011.play();
+      break;
+    case 'hotelLessonOneBConv_004':
+        var hotelLessonOneBConv_004 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/B/conversation/hotelLessonOneBConv_004.mp3');
+        hotelLessonOneBConv_004.play();
+      break;
+    case 'hotelLessonOneEConv_001':
+        var hotelLessonOneEConv_001 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/E/conversation/hotelLessonOneEConv_001.mp3');
+        hotelLessonOneEConv_001.play();
+      break;
+    case 'hotelLessonOneBConv_005':
+        var hotelLessonOneBConv_005 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/B/conversation/hotelLessonOneBConv_005.mp3');
+        hotelLessonOneBConv_005.play();
+      break;
+    case 'hotelLessonOneEConv_002':
+        var hotelLessonOneEConv_002 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/E/conversation/hotelLessonOneEConv_002.mp3');
+        hotelLessonOneEConv_002.play();
+      break;
+    case 'hotelLessonOneEConv_003':
+        var hotelLessonOneEConv_003 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/E/conversation/hotelLessonOneEConv_003.mp3');
+        hotelLessonOneEConv_003.play();
+      break;
 
     // 其他聲音的處理
     default:
