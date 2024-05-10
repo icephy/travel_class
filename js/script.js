@@ -202,6 +202,51 @@ function PlaySound(soundName) {
         hotelLessonOneCVocab_006.play();
       break;
 
+    // 任務卡D-001-單字
+    case 'hotelLessonOneDVocab_001':
+        var hotelLessonOneDVocab_001 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/D/vocabulary/hotelLessonOneDVocab_001.mp3');
+        hotelLessonOneDVocab_001.play();
+      break;
+    case 'hotelLessonOneDVocab_002':
+        var hotelLessonOneDVocab_002 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/D/vocabulary/hotelLessonOneDVocab_002.mp3');
+        hotelLessonOneDVocab_002.play();
+      break;
+    case 'hotelLessonOneDVocab_003':
+        var hotelLessonOneDVocab_003 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/D/vocabulary/hotelLessonOneDVocab_003.mp3');
+        hotelLessonOneDVocab_003.play();
+      break;
+    case 'hotelLessonOneDVocab_004':
+        var hotelLessonOneDVocab_004 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/D/vocabulary/hotelLessonOneDVocab_004.mp3');
+        hotelLessonOneDVocab_004.play();
+      break;
+    case 'hotelLessonOneDVocab_005':
+        var hotelLessonOneDVocab_005 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/D/vocabulary/hotelLessonOneDVocab_005.mp3');
+        hotelLessonOneDVocab_005.play();
+      break;
+    case 'hotelLessonOneDVocab_006':
+        var hotelLessonOneDVocab_006 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/D/vocabulary/hotelLessonOneDVocab_006.mp3');
+        hotelLessonOneDVocab_006.play();
+      break;
+    case 'hotelLessonOneDVocab_007':
+        var hotelLessonOneDVocab_007 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/D/vocabulary/hotelLessonOneDVocab_007.mp3');
+        hotelLessonOneDVocab_007.play();
+      break;
+    case 'hotelLessonOneDVocab_008':
+        var hotelLessonOneDVocab_008 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/D/vocabulary/hotelLessonOneDVocab_008.mp3');
+        hotelLessonOneDVocab_008.play();
+      break;
+    case 'hotelLessonOneDVocab_009':
+        var hotelLessonOneDVocab_009 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/D/vocabulary/hotelLessonOneDVocab_009.mp3');
+        hotelLessonOneDVocab_009.play();
+      break;
+    case 'hotelLessonOneDVocab_010':
+        var hotelLessonOneDVocab_010 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/D/vocabulary/hotelLessonOneDVocab_010.mp3');
+        hotelLessonOneDVocab_010.play();
+      break;
+    case 'hotelLessonOneDVocab_011':
+        var hotelLessonOneDVocab_011 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/D/vocabulary/hotelLessonOneDVocab_011.mp3');
+        hotelLessonOneDVocab_011.play();
+      break;
 
 
 
