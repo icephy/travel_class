@@ -17,31 +17,6 @@
 </head>
 
 <body>
-  <!-- <nav class="sticky-top bg-light py-2 border-bottom border-3 border-dark">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <h1 class="navbar-brand mb-0">
-            <a href="#" class="d-block py-1">
-              <img src="img/logo.svg" alt="柚利說日語" class="d-block">
-            </a>
-          </h1>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">關於旅行班</a>
-              <a class="nav-link" href="#">飯店用語練習</a>
-              <a class="nav-link" href="#">抽卡列表</a>
-              <a class="nav-link">其他課程</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </nav> -->
-  <!--第二個 nav-->
   <div class="sticky-top bg-light border-bottom border-3 border-dark">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
@@ -72,7 +47,6 @@
   </div>
 
   <banner class="banner">
-    <div class="container">
       <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -81,26 +55,26 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src="img/banner_hotel_001.png" class="d-block w-100" alt="飯店">
-            <div class="carousel-caption text-start d-none d-md-block p-4 bg-light rounded border border-3 shadow-lg mb-4">
+            <img src="img/banner_hotel_001.png" class="img-fluid" alt="飯店">
+            <div class="carousel-caption text-start d-none d-lg-block p-4 bg-light rounded border border-3 shadow-lg mb-4">
               <h2 class="fs-3 typing">歡迎光臨・くま米大飯店 🏠</h2>
               <p class="mb-3 text-muted">長達 4 小時的飛機，終於抵達飯店了，拖著行李的你即將入住飯店...<br>然而，看起來似乎有些關卡等著你...</p>
-              <a href="https://docs.google.com/document/d/1M-s-kX3V8IFRsQqALrNaOVuLDgyy2jakOhLIvM3QZXY/edit" target="_blank" class="btn btn-outline-dark px-4">下載答案紙</a>
+              <a href="https://docs.google.com/document/d/1M-s-kX3V8IFRsQqALrNaOVuLDgyy2jakOhLIvM3QZXY/edit" target="_blank" class="btn btn-dark px-4">下載答案紙</a>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src="img/banner_hotel_002.png" class="d-block w-100" alt="banner">
-            <div class="carousel-caption text-start d-none d-md-block p-4 mb-4">
-              <h2 class="fs-3 typing bg-light rounded p-2">歡迎光臨・くま米大飯店 🏠</h2>
+            <img src="img/banner_hotel_002.png" class="img-fluid" alt="banner">
+            <div class="carousel-caption text-start d-none d-lg-block p-4 mb-4">
+              <h2 class="fs-3 typing text-light bg-dark rounded px-3 py-2">飯店裡似乎有些機關 🧐 ⋯</h2>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="img/banner_003.png" class="d-block w-100" alt="...">
+          <!-- <div class="carousel-item">
+            <img src="img/banner_003.png" class="img-fluid" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>Some representative placeholder content for the third slide.</p>
             </div>
-          </div>
+          </div> -->
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -111,9 +85,19 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
   </banner>
-
+  
+  <div class="texture bg-dark">
+    <div class="container d-block d-lg-none mt-0 mt-lg-3 mb-md-4 my-3">
+      <div class="text-start p-4 bg-dark">
+        <h2 class="fs-3 typing text-light">歡迎光臨・くま米大飯店 🏠</h2>
+        <p class="mb-3 text-light">長達 4 小時的飛機，終於抵達飯店了，拖著行李的你即將入住飯店...<br>然而，看起來似乎有些關卡等著你...</p>
+        <a href="https://docs.google.com/document/d/1M-s-kX3V8IFRsQqALrNaOVuLDgyy2jakOhLIvM3QZXY/edit" target="_blank" class="btn btn-outline-light px-4">下載答案紙</a>
+      </div>
+    </div>
+  </div>
+  <!--飯店篇引導說明-->
+  
   <section class="hotel my-md-5 my-3">
     <div class="container mb-4">
       <h4 class="fs-2 mx-auto mb-2 py-2 text-center fw-bolder">聽說讀寫</h4>
@@ -132,11 +116,11 @@
               <!-- Button trigger modal -->
               <ul class="list-unstyled d-flex flex-lg-row mb-0 gap-2 flex-column">
                 <li class="w-100 w-md-100 w-lg-50">
-                  <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneAModalTask_001">進入任務
+                  <button type="button" class="btn btn-outline-dark w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneAModalTask_001">進入任務
                   </button>
                 </li>
                 <li class="w-100 w-md-50 w-lg-50">
-                  <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneAModalProps_001">獲取道具
+                  <button type="button" class="btn btn-outline-dark w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneAModalProps_001">獲取道具
                   </button>
                 </li>
               </ul>
@@ -865,11 +849,11 @@
               <!-- Button trigger modal -->
               <ul class="list-unstyled d-flex flex-column flex-lg-row mb-0 gap-2">
                 <li class="w-100 w-md-100 w-lg-50">
-                  <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneBModalTask_001">進入任務
+                  <button type="button" class="btn btn-outline-dark w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneBModalTask_001">進入任務
                   </button>
                 </li>
                 <li class="w-100 w-md-50 w-lg-50">
-                  <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneBModalProps_001">獲取道具
+                  <button type="button" class="btn btn-outline-dark w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneBModalProps_001">獲取道具
                   </button>
                 </li>
               </ul>
@@ -1483,11 +1467,11 @@
               <!-- Button trigger modal -->
               <ul class="list-unstyled d-flex flex-column flex-lg-row mb-0 gap-2">
                 <li class="w-100 w-md-100 w-lg-50">
-                  <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneCModalTask_001">進入任務
+                  <button type="button" class="btn btn-outline-dark w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneCModalTask_001">進入任務
                   </button>
                 </li>
                 <li class="w-100 w-md-50 w-lg-50">
-                  <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneCModalProps_001">獲取道具
+                  <button type="button" class="btn btn-outline-dark w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneCModalProps_001">獲取道具
                   </button>
                 </li>
               </ul>
@@ -1978,11 +1962,11 @@
               <!-- Button trigger modal -->
               <ul class="list-unstyled d-flex flex-column flex-lg-row mb-0 gap-2">
                 <li class="w-100 w-md-100 w-lg-50">
-                  <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneDModalTask_001">進入任務
+                  <button type="button" class="btn btn-outline-dark w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneDModalTask_001">進入任務
                   </button>
                 </li>
                 <li class="w-100 w-md-50 w-lg-50">
-                  <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneDModalProps_001">獲取道具
+                  <button type="button" class="btn btn-outline-dark w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneDModalProps_001">獲取道具
                   </button>
                 </li>
               </ul>
@@ -2701,7 +2685,7 @@
     </div>
     <div class="container">
       <div class="row g-3">
-            <div class="col-6 col-lg-6">
+            <div class="col-lg-6">
               <div class="card mb-3">
                 <div class="row g-0">
                   <div class="col-md-4">
@@ -2725,7 +2709,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6 col-lg-6">
+            <div class="col-lg-6">
               <div class="card mb-3">
                 <div class="row g-0">
                   <div class="col-md-4">
@@ -2749,7 +2733,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6 col-lg-6">
+            <div class="col-lg-6">
               <div class="card mb-3">
                 <div class="row g-0">
                   <div class="col-md-4">
@@ -2773,7 +2757,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6 col-lg-6">
+            <div class="col-lg-6">
               <div class="card mb-3">
                 <div class="row g-0">
                   <div class="col-md-4">
