@@ -55,28 +55,8 @@ body{
     }
   }
 
-
-/* .hotel-intro{
-    height: 800px;
-    background-image: url("../img/banner_bg.png");
-    background-size: cover;
-    background-position: center;
-} */
-
-/* .hotel-intro::after{
-    content: "";
-    background-image: url("../img/banner_bg.png");
-    position: absolute;
-    width: 50px;
-    height: 2px;
-    left: 50%;
-    transform: translateX(-50%) rotate(120deg);
-    background-color: black;
-} */
-
-/* .ribbon::before {
-    content: "看橙色的盒子。";
-    background-color: #ffba10;
-    border-color: black;
-    border-style: dotted;
-  } */
+.shortTalksImg{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
