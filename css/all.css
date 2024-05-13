@@ -2,7 +2,7 @@ body{
     /* background-image: url("../img/bg_002.svg");
     background-size: cover;
     background-position: center; */
-    background-image: linear-gradient(rgb(233, 233, 233) .1rem, transparent .1rem), linear-gradient(90deg, rgba(233, 233, 233) .1rem, transparent .1rem);
+    background-image: linear-gradient(rgb(246, 246, 246) .1rem, transparent .1rem), linear-gradient(90deg, rgba(246, 246, 246) .1rem, transparent .1rem);
     background-size: 3rem 3rem;
 }
 
