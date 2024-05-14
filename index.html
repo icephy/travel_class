@@ -2694,15 +2694,18 @@
               </div>
               <div class="col-md-8 col-8">
                 <div class="card-body h-100 d-flex flex-column p-0">
-                  <h5 class="card-title">回答下列問題：
-                  </h5>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <h5 class="card-title mb-0">第一題</h5>
+                    <button class="btn btn-dark text-center rounded-circle p-0 p-1" onmousedown="PlaySound('hotelLessonOneAConv_001')"><img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block">
+                    </button>
+                  </div>
                   <ul class="card-text list-unstyled mb-0">
                     <li>➀、旅客的房間在幾樓？</li>
                     <li>➁、旅客的房號是幾號？</li>
                     <li>➂、房間的 Wi-Fi 密碼是多少？</li>
                     <li>➃、櫃檯的總機為多少？</li>
                   </ul>
-                  <button class="btn btn-primary px-1 w-100 text-center mt-auto" onmousedown="PlaySound('hotelLessonOneAConv_001')">播放題目
+                  <button class="btn btn-outline-dark px-1 w-100 text-center mt-auto" onmousedown="PlaySound('hotelLessonOneAConv_001')">播放題目
                   </button>
                 </div>
               </div>
@@ -2726,7 +2729,7 @@
                     <li>➂、房間的 Wi-Fi 密碼是多少？</li>
                     <li>➃、櫃檯的總機為多少？</li>
                   </ul>
-                  <button class="btn btn-primary px-1 w-100 text-center mt-auto" onmousedown="PlaySound('hotelLessonOneAConv_001')">播放題目
+                  <button class="btn btn-outline-dark px-1 w-100 text-center mt-auto" onmousedown="PlaySound('hotelLessonOneAConv_001')">播放題目
                   </button>
                 </div>
               </div>
@@ -2750,7 +2753,7 @@
                     <li>➂、房間的 Wi-Fi 密碼是多少？</li>
                     <li>➃、櫃檯的總機為多少？</li>
                   </ul>
-                  <button class="btn btn-primary px-1 w-100 text-center mt-auto" onmousedown="PlaySound('hotelLessonOneAConv_001')">播放題目
+                  <button class="btn btn-outline-dark px-1 w-100 text-center mt-auto" onmousedown="PlaySound('hotelLessonOneAConv_001')">播放題目
                   </button>
                 </div>
               </div>
@@ -2774,7 +2777,7 @@
                     <li>➂、房間的 Wi-Fi 密碼是多少？</li>
                     <li>➃、櫃檯的總機為多少？</li>
                   </ul>
-                  <button class="btn btn-primary px-1 w-100 text-center mt-auto" onmousedown="PlaySound('hotelLessonOneAConv_001')">播放題目
+                  <button class="btn btn-outline-dark px-1 w-100 text-center mt-auto" onmousedown="PlaySound('hotelLessonOneAConv_001')">播放題目
                   </button>
                 </div>
               </div>
@@ -2792,7 +2795,7 @@
       <p class="text-center mb-0">同學可以閱讀完問題後，再播放題目來作答！</p>
     </div>
     <div class="container">
-      <ul class="nav nav-pills mb-3 p-3 bg-light flex-nowrap overflow-auto" id="pills-tab" role="tablist">
+      <ul class="nav nav-pills p-3 bg-light flex-nowrap overflow-auto" id="pills-tab" role="tablist">
         <li class="nav-item text-nowrap" role="presentation">
           <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home-故意寫很多字</button>
         </li>
@@ -2804,9 +2807,46 @@
         </li>
       </ul>
       <!-- tabs 導覽按鈕-->
-      <div class="tab-content" id="pills-tabContent">
+      <div class="tab-content bg-light" id="pills-tabContent">
         <div class="tab-pane fade show active container" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-          <div class="row g-3">
+          <div class="row gx-3 gy-3 px-1">
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="card h-100 shadow-sm">
+                <button class="btn btn-dark text-center position-absolute top-0 end-0 rounded-circle p-0 p-1 m-2" onmousedown="PlaySound('hotelLessonOneAConv_001')"><img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block">
+                </button>
+                <div class="card-body d-flex flex-column text-center">
+                  <h5 class="card-title mb-1">
+                    <ruby><span class="fw-bolder">ロビー</span>
+                      <rp>(</rp>
+                      <rt class="text-primary">ろびー</rt>
+                      <rp>)</rp>
+                    </ruby>
+                  </h5>
+                  <p class="card-text text-muted">大廳</p>
+                </div>
+                <!--card-body-->
+              </div>
+              <!--card-->
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+              <div class="card h-100 shadow-sm">
+                <button class="btn btn-dark text-center position-absolute top-0 end-0 rounded-circle p-0 p-1 m-2" onmousedown="PlaySound('hotelLessonOneAConv_001')"><img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block">
+                </button>
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtlRbT9AakeJpphPhbWHoGwuwCwF1lvJKUC5eZdk_zmfg0PtnGKHEXYHN2kHXANNXUXfR8KWG0Pr2Gjm17o7SKoRjAo5E9SAwM-mDdti9JPN4SLoXTsFBdynByJm87oGuRvlk93-JZhoLt/s400/passport_checkin.png" class="card-img-top img-fluid bg-theme-light" alt="旅客">
+                <div class="card-body d-flex flex-column text-center">
+                  <h5 class="card-title mb-1">
+                    <ruby><span class="fw-bolder">フロント</span>
+                      <rp>(</rp>
+                      <rt class="text-primary">ふろんと</rt>
+                      <rp>)</rp>
+                    </ruby>
+                  </h5>
+                  <p class="card-text text-muted">櫃檯</p>
+                </div>
+                <!--card-body-->
+              </div>
+              <!--card-->
+            </div>
             <div class="col-6 col-md-4 col-lg-2">
               <div class="card h-100 shadow-sm">
                 <button class="btn btn-dark text-center position-absolute top-0 end-0 rounded-circle p-0 p-1 m-2" onmousedown="PlaySound('hotelLessonOneAConv_001')"><img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block">
@@ -2828,13 +2868,18 @@
             </div>
             <div class="col-6 col-md-4 col-lg-2">
               <div class="card h-100 shadow-sm">
-                <p class="position-absolute top-0 px-md-4 py-md-2 bg-dark fs-6 fw-bold text-white px-3 py-1">關卡 A</p>
-                <img src="https://fakeimg.pl/600x600/" class="card-img-top img-fluid bg-theme-light" alt="旅客">
-                <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">Check in 入住</h5>
-                  <p class="card-text">旅客試圖讓自己...</p>
-                  <button class="btn btn-primary px-1 w-100 text-center mt-auto" onmousedown="PlaySound('hotelLessonOneAConv_001')">播放題目
-                  </button>
+                <button class="btn btn-dark text-center position-absolute top-0 end-0 rounded-circle p-0 p-1 m-2" onmousedown="PlaySound('hotelLessonOneAConv_001')"><img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block">
+                </button>
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtlRbT9AakeJpphPhbWHoGwuwCwF1lvJKUC5eZdk_zmfg0PtnGKHEXYHN2kHXANNXUXfR8KWG0Pr2Gjm17o7SKoRjAo5E9SAwM-mDdti9JPN4SLoXTsFBdynByJm87oGuRvlk93-JZhoLt/s400/passport_checkin.png" class="card-img-top img-fluid bg-theme-light" alt="旅客">
+                <div class="card-body d-flex flex-column text-center">
+                  <h5 class="card-title mb-1">
+                    <ruby><span class="fw-bolder">ロビー</span>
+                      <rp>(</rp>
+                      <rt class="text-primary">ろびー</rt>
+                      <rp>)</rp>
+                    </ruby>
+                  </h5>
+                  <p class="card-text text-muted">大廳</p>
                 </div>
                 <!--card-body-->
               </div>
@@ -2842,13 +2887,18 @@
             </div>
             <div class="col-6 col-md-4 col-lg-2">
               <div class="card h-100 shadow-sm">
-                <p class="position-absolute top-0 px-md-4 py-md-2 bg-dark fs-6 fw-bold text-white px-3 py-1">關卡 A</p>
-                <img src="https://fakeimg.pl/600x600/" class="card-img-top img-fluid bg-theme-light" alt="旅客">
-                <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">Check in 入住</h5>
-                  <p class="card-text">旅客試圖讓自己...</p>
-                  <button class="btn btn-primary px-1 w-100 text-center mt-auto" onmousedown="PlaySound('hotelLessonOneAConv_001')">播放題目
-                  </button>
+                <button class="btn btn-dark text-center position-absolute top-0 end-0 rounded-circle p-0 p-1 m-2" onmousedown="PlaySound('hotelLessonOneAConv_001')"><img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block">
+                </button>
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtlRbT9AakeJpphPhbWHoGwuwCwF1lvJKUC5eZdk_zmfg0PtnGKHEXYHN2kHXANNXUXfR8KWG0Pr2Gjm17o7SKoRjAo5E9SAwM-mDdti9JPN4SLoXTsFBdynByJm87oGuRvlk93-JZhoLt/s400/passport_checkin.png" class="card-img-top img-fluid bg-theme-light" alt="旅客">
+                <div class="card-body d-flex flex-column text-center">
+                  <h5 class="card-title mb-1">
+                    <ruby><span class="fw-bolder">ロビー</span>
+                      <rp>(</rp>
+                      <rt class="text-primary">ろびー</rt>
+                      <rp>)</rp>
+                    </ruby>
+                  </h5>
+                  <p class="card-text text-muted">大廳</p>
                 </div>
                 <!--card-body-->
               </div>
@@ -2856,41 +2906,18 @@
             </div>
             <div class="col-6 col-md-4 col-lg-2">
               <div class="card h-100 shadow-sm">
-                <p class="position-absolute top-0 px-md-4 py-md-2 bg-dark fs-6 fw-bold text-white px-3 py-1">關卡 A</p>
-                <img src="https://fakeimg.pl/600x600/" class="card-img-top img-fluid bg-theme-light" alt="旅客">
-                <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">Check in 入住</h5>
-                  <p class="card-text">旅客試圖讓自己...</p>
-                  <button class="btn btn-primary px-1 w-100 text-center mt-auto" onmousedown="PlaySound('hotelLessonOneAConv_001')">播放題目
-                  </button>
-                </div>
-                <!--card-body-->
-              </div>
-              <!--card-->
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-              <div class="card h-100 shadow-sm">
-                <p class="position-absolute top-0 px-md-4 py-md-2 bg-dark fs-6 fw-bold text-white px-3 py-1">關卡 A</p>
-                <img src="https://fakeimg.pl/600x600/" class="card-img-top img-fluid bg-theme-light" alt="旅客">
-                <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">Check in 入住</h5>
-                  <p class="card-text">旅客試圖讓自己...</p>
-                  <button class="btn btn-primary px-1 w-100 text-center mt-auto" onmousedown="PlaySound('hotelLessonOneAConv_001')">播放題目
-                  </button>
-                </div>
-                <!--card-body-->
-              </div>
-              <!--card-->
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-              <div class="card h-100 shadow-sm">
-                <p class="position-absolute top-0 px-md-4 py-md-2 bg-dark fs-6 fw-bold text-white px-3 py-1">關卡 A</p>
-                <img src="https://fakeimg.pl/600x600/" class="card-img-top img-fluid bg-theme-light" alt="旅客">
-                <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">Check in 入住</h5>
-                  <p class="card-text">旅客試圖讓自己...</p>
-                  <button class="btn btn-primary px-1 w-100 text-center mt-auto" onmousedown="PlaySound('hotelLessonOneAConv_001')">播放題目
-                  </button>
+                <button class="btn btn-dark text-center position-absolute top-0 end-0 rounded-circle p-0 p-1 m-2" onmousedown="PlaySound('hotelLessonOneAConv_001')"><img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block">
+                </button>
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtlRbT9AakeJpphPhbWHoGwuwCwF1lvJKUC5eZdk_zmfg0PtnGKHEXYHN2kHXANNXUXfR8KWG0Pr2Gjm17o7SKoRjAo5E9SAwM-mDdti9JPN4SLoXTsFBdynByJm87oGuRvlk93-JZhoLt/s400/passport_checkin.png" class="card-img-top img-fluid bg-theme-light" alt="旅客">
+                <div class="card-body d-flex flex-column text-center">
+                  <h5 class="card-title mb-1">
+                    <ruby><span class="fw-bolder">ロビー</span>
+                      <rp>(</rp>
+                      <rt class="text-primary">ろびー</rt>
+                      <rp>)</rp>
+                    </ruby>
+                  </h5>
+                  <p class="card-text text-muted">大廳</p>
                 </div>
                 <!--card-body-->
               </div>
@@ -2908,8 +2935,6 @@
     </div><!--container-->
   </section>
   <!--單字村莊-->
-
-  
 
   <section class="py-4">
     <div class="container mb-4">
