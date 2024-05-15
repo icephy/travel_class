@@ -244,10 +244,15 @@ function PlaySound(soundName) {
         hotelLessonOneDVocab_010.play();
       break;
     case 'hotelLessonOneDVocab_011':
-        var hotelLessonOneDVocab_011 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/D/vocabulary/hotelLessonOneDVocab_011.mp3');
+        var hotelLessonOneDVocab_011 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/short_talks/hotelShortTalksCard_001.mp3');
         hotelLessonOneDVocab_011.play();
       break;
 
+    // 短文聽力-001
+    case 'hotelShortTalksCard_001':
+        var hotelShortTalksCard_001 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/D/vocabulary/hotelLessonOneDVocab_011.mp3');
+        hotelShortTalksCard_001.play();
+      break;
 
 
     // 其他聲音的處理
