@@ -248,13 +248,118 @@ function PlaySound(soundName) {
         hotelLessonOneDVocab_011.play();
       break;
 
-    // 短文聽力-001
+    // 短文聽力
     case 'hotelShortTalksCard_001':
         var hotelShortTalksCard_001 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/short_talks/hotelShortTalksCard_001.mp3');
         hotelShortTalksCard_001.play();
       break;
-    
+    case 'hotelShortTalksCard_002':
+        var hotelShortTalksCard_002 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/short_talks/hotelShortTalksCard_002.mp3');
+        hotelShortTalksCard_002.play();
+      break;
+    case 'hotelShortTalksCard_003':
+        var hotelShortTalksCard_003 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/short_talks/hotelShortTalksCard_003.mp3');
+        hotelShortTalksCard_003.play();
+      break;
 
+    // 單字區
+    case 'hotelVocabSectionTabs_furonto':
+        var hotelVocabSectionTabs_furonto = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_furonto.mp3');
+        hotelVocabSectionTabs_furonto.play();
+      break;
+    case 'hotelVocabSectionTabs_erebeetaa':
+        var hotelVocabSectionTabs_erebeetaa = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_erebeetaa.mp3');
+        hotelVocabSectionTabs_erebeetaa.play();
+      break;
+    case 'hotelVocabSectionTabs_azukaru':
+        var hotelVocabSectionTabs_azukaru = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_azukaru.mp3');
+        hotelVocabSectionTabs_azukaru.play();
+      break;
+    case 'hotelVocabSectionTabs_heyabangou':
+        var hotelVocabSectionTabs_heyabangou = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_heyabangou.mp3');
+        hotelVocabSectionTabs_heyabangou.play();
+      break;
+    case 'hotelVocabSectionTabs_ruumusaabisu':
+        var hotelVocabSectionTabs_ruumusaabisu = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_ruumusaabisu.mp3');
+        hotelVocabSectionTabs_ruumusaabisu.play();
+      break;
+    case 'hotelVocabSectionTabs_kyusuiki':
+        var hotelVocabSectionTabs_kyusuiki = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_kyusuiki.mp3');
+        hotelVocabSectionTabs_kyusuiki.play();
+      break;
+    case 'hotelVocabSectionTabs_randorii':
+        var hotelVocabSectionTabs_randorii = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_randorii.mp3');
+        hotelVocabSectionTabs_randorii.play();
+      break;
+    case 'hotelVocabSectionTabs_resutoran':
+        var hotelVocabSectionTabs_resutoran = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_resutoran.mp3');
+        hotelVocabSectionTabs_resutoran.play();
+      break;
+    case 'hotelVocabSectionTabs_hijouguchi':
+        var hotelVocabSectionTabs_hijouguchi = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_hijouguchi.mp3');
+        hotelVocabSectionTabs_hijouguchi.play();
+      break;
+    case 'hotelVocabSectionTabs_denshirenji':
+        var hotelVocabSectionTabs_denshirenji = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_denshirenji.mp3');
+        hotelVocabSectionTabs_denshirenji.play();
+      break;
+    case 'hotelVocabSectionTabs_seihyoki':
+        var hotelVocabSectionTabs_seihyoki = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_seihyoki.mp3');
+        hotelVocabSectionTabs_seihyoki.play();
+      break;
+    // 單字分隔線
+    case 'hotelVocabSectionTabs_haburashi':
+        var hotelVocabSectionTabs_haburashi = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_haburashi.mp3');
+        hotelVocabSectionTabs_haburashi.play();
+      break;
+    case 'hotelVocabSectionTabs_hamigakiko':
+        var hotelVocabSectionTabs_hamigakiko = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_hamigakiko.mp3');
+        hotelVocabSectionTabs_hamigakiko.play();
+      break;
+    case 'hotelVocabSectionTabs_taoru':
+        var hotelVocabSectionTabs_taoru = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_taoru.mp3');
+        hotelVocabSectionTabs_taoru.play();
+      break;
+    case 'hotelVocabSectionTabs_basutaoru':
+        var hotelVocabSectionTabs_basutaoru = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_basutaoru.mp3');
+        hotelVocabSectionTabs_basutaoru.play();
+      break;
+    case 'hotelVocabSectionTabs_shanpuu':
+        var hotelVocabSectionTabs_shanpuu = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_shanpuu.mp3');
+        hotelVocabSectionTabs_shanpuu.play();
+      break;
+    case 'hotelVocabSectionTabs_senganryo':
+        var hotelVocabSectionTabs_senganryo = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_senganryo.mp3');
+        hotelVocabSectionTabs_senganryo.play();
+      break;
+    case 'hotelVocabSectionTabs_doraiyaa':
+        var hotelVocabSectionTabs_doraiyaa = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_doraiyaa.mp3');
+        hotelVocabSectionTabs_doraiyaa.play();
+      break;
+    case 'hotelVocabSectionTabs_higesuri':
+        var hotelVocabSectionTabs_higesuri = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_higesuri.mp3');
+        hotelVocabSectionTabs_higesuri.play();
+      break;
+    case 'hotelVocabSectionTabs_surippa':
+        var hotelVocabSectionTabs_surippa = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_surippa.mp3');
+        hotelVocabSectionTabs_surippa.play();
+      break;
+    case 'hotelVocabSectionTabs_mizubotoru':
+        var hotelVocabSectionTabs_mizubotoru = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_mizubotoru.mp3');
+        hotelVocabSectionTabs_mizubotoru.play();
+      break;
+    case 'hotelVocabSectionTabs_rimokon':
+        var hotelVocabSectionTabs_rimokon = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_rimokon.mp3');
+        hotelVocabSectionTabs_rimokon.play();
+      break;
+    case 'hotelVocabSectionTabs_toire':
+        var hotelVocabSectionTabs_toire = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_toire.mp3');
+        hotelVocabSectionTabs_toire.play();
+      break;
+    case 'hotelVocabSectionTabs_shawaa':
+        var hotelVocabSectionTabs_shawaa = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/vocab_section/hotelVocabSectionTabs_shawaa.mp3');
+        hotelVocabSectionTabs_shawaa.play();
+      break;
 
     // 其他聲音的處理
     default:
