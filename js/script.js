@@ -261,6 +261,10 @@ function PlaySound(soundName) {
         var hotelShortTalksCard_003 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/short_talks/hotelShortTalksCard_003.mp3');
         hotelShortTalksCard_003.play();
       break;
+    case 'hotelShortTalksCard_004':
+        var hotelShortTalksCard_004 = new Audio('https://icephy.github.io/travel_class/audio/sound/hotel_001/short_talks/hotelShortTalksCard_004.mp3');
+        hotelShortTalksCard_004.play();
+      break;
 
     // 單字區
     case 'hotelVocabSectionTabs_furonto':
